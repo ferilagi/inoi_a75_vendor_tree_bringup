@@ -774,15 +774,12 @@ PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0 \
     android.hidl.allocator@1.0 \
     android.system.wifi.keystore@1.0 \
-    audio_common-aidl-cpp \
-    audioclient-types-aidl-cpp \
     libGLES_meow \
     libMEOW_data \
     libMEOW_gift \
     libMEOW_qt \
     libMEOW_trace \
     libGLES_mali \
-    framework-permission-aidl-cpp \
     android.hardware.audio.effect@6.0-impl \
     android.hardware.audio.effect@7.0-impl \
     android.hardware.audio@6.0-impl-mediatek \
@@ -1000,7 +997,6 @@ PRODUCT_PACKAGES += \
     librt_extamp_intf \
     libruy \
     libsensorndkbridge \
-    libsfplugin_ccodec_utils \
     libshmemcompat \
     libshmemutil \
     libsimaka \
@@ -1205,7 +1201,6 @@ PRODUCT_PACKAGES += \
     s5kjn1_mipi_raw_IdxMgr \
     s5kjn1_mipi_raw_tuning \
     nfc_nci_samsung \
-    shared-file-region-aidl-cpp \
     libaudiopreprocessing \
     libaudiopreprocessing_mtk \
     libhapticgenerator \
