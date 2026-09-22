@@ -726,7 +726,6 @@ PRODUCT_COPY_FILES += \
     vendor/inoi/A75/proprietary/vendor_dlkm/lib/modules/modules.softdep:$(TARGET_COPY_OUT_VENDOR_DLKM)/lib/modules/modules.softdep
 
 PRODUCT_PACKAGES += \
-    android.frameworks.sensorservice@1.0 \
     android.hardware.audio.common@6.0 \
     android.hardware.audio.common@7.0 \
     android.hardware.audio.effect@6.0 \
@@ -737,7 +736,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio@2.1 \
     android.hardware.bluetooth@1.0 \
     android.hardware.bluetooth@1.1 \
-    android.hardware.boot@1.0 \
     android.hardware.boot@1.1 \
     android.hardware.boot@1.2 \
     android.hardware.drm@1.0 \
@@ -752,7 +750,6 @@ PRODUCT_PACKAGES += \
     android.hardware.media.c2@1.1 \
     android.hardware.media.c2@1.2 \
     android.hardware.nfc@1.0 \
-    android.hardware.nfc@1.1 \
     android.hardware.nfc@1.2 \
     android.hardware.radio@1.0 \
     android.hardware.sensors@1.0 \
