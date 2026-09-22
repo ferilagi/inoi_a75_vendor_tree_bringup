@@ -1438,7 +1438,6 @@ PRODUCT_PACKAGES += \
     librilfusion \
     librmsclib1 \
     libsoft_attestation_cert \
-    libstagefright_bufferpool@2.0.1 \
     libtrm \
     libvia-ril \
     libviamipc-ril \
