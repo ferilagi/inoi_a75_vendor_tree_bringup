@@ -980,7 +980,6 @@ PRODUCT_PACKAGES += \
     librt_extamp_intf \
     libruy \
     libsensorndkbridge \
-    libshmemcompat \
     libshmemutil \
     libsimaka \
     libsimlock \
@@ -1430,6 +1429,7 @@ PRODUCT_PACKAGES += \
     libremosaiclib \
     librilfusion \
     librmsclib1 \
+    libshmemcompat \
     libsoft_attestation_cert \
     libtrm \
     libvia-ril \
