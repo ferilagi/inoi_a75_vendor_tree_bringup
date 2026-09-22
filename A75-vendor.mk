@@ -727,7 +727,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0 \
-    android.hardware.audio.common@5.0 \
     android.hardware.audio.common@6.0 \
     android.hardware.audio.common@7.0 \
     android.hardware.audio.effect@6.0 \
@@ -744,7 +743,6 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.0 \
     android.hardware.drm@1.1 \
     android.hardware.drm@1.2 \
-    android.hardware.drm@1.3 \
     android.hardware.drm@1.4 \
     android.hardware.gatekeeper@1.0 \
     android.hardware.health@1.0 \
@@ -756,16 +754,8 @@ PRODUCT_PACKAGES += \
     android.hardware.nfc@1.0 \
     android.hardware.nfc@1.1 \
     android.hardware.nfc@1.2 \
-    android.hardware.power@1.0 \
     android.hardware.radio@1.0 \
-    android.hardware.radio@1.1 \
     android.hardware.sensors@1.0 \
-    android.hardware.soundtrigger@2.1 \
-    android.hardware.soundtrigger@2.3 \
-    android.hardware.thermal@1.0 \
-    android.hardware.thermal@2.0 \
-    android.hidl.allocator@1.0 \
-    android.system.wifi.keystore@1.0 \
     libGLES_meow \
     libMEOW_data \
     libMEOW_gift \
@@ -861,14 +851,12 @@ PRODUCT_PACKAGES += \
     libaurisysdemo \
     libbessound_hd_mtk_vendor \
     libblisrc32_vendor \
-    libbluetooth_audio_session \
     libbluetooth_audio_session_mediatek \
     libbluetooth_hw_test \
     libbluetooth_mtk \
     libbluetooth_mtk_pure \
     libbluetooth_relayer \
     libbluetoothem_mtk \
-    libbt-vendor \
     libbwc \
     libcamalgo.utility \
     libcapctrl \
@@ -878,7 +866,6 @@ PRODUCT_PACKAGES += \
     libcharon-ss \
     libcmdl \
     libcmdl_ndk.mtk.vndk \
-    libcodec2_hidl_plugin \
     libcodec2_mtk_c2store \
     libcodec2_mtk_vdec \
     libcodec2_mtk_venc \
@@ -920,7 +907,6 @@ PRODUCT_PACKAGES += \
     libispcameraca \
     libjpeg-alpha-oal_vendor \
     libjpeg-alpha_vendor \
-    libkeystore-wifi-hidl \
     libladder \
     libminiui \
     libmml \
@@ -976,21 +962,18 @@ PRODUCT_PACKAGES += \
     librpc \
     librt_extamp_intf \
     libruy \
-    libsensorndkbridge \
     libsimaka \
     libsimlock \
     libsimmelock \
     libspeech_enh_lib \
     libspeechparser_vendor \
     libssl-md \
-    libstagefrighthw \
     libstorage_otp \
     libstrongswan \
     libsysenv \
     libteec \
     libtflite_mtk \
     libthha \
-    libtinycompress \
     libtranslator_mapi_v3.0 \
     libtranslator_mdmi_v2.8.2 \
     libtranslator_utils \
@@ -999,7 +982,6 @@ PRODUCT_PACKAGES += \
     libvcodecdrv_header_stub \
     libverno \
     libviagpsrpc \
-    libvibrator \
     libvow_ap_test_aa \
     libvow_ap_test_dd \
     libvow_ap_test_ha \
@@ -1232,25 +1214,19 @@ PRODUCT_PACKAGES += \
     android.hardware.cas.native@1.0 \
     android.hardware.cas@1.0 \
     android.hardware.cas@1.1 \
-    android.hardware.cas@1.2 \
     libHEVCdec_sa.ca7.android \
     libMtkOmxAdpcmDec \
     libMtkOmxAlacDec \
     libMtkOmxApeDec \
     libMtkOmxGsmDec \
     libMtkOmxMp3Dec \
-    libavservices_minijail \
     libh264dec_customize \
     libh264dec_sa.ca7 \
     libh264dec_sd.ca7 \
     libh264dec_se.ca7 \
     libmp4enc_sa.ca7 \
-    libopus \
     librcs_interface \
     librcs_volte_core \
-    libstagefright_amrnb_common \
-    libstagefright_enc_common \
-    libstagefright_flacdec \
     libstagefright_soft_aacdec \
     libstagefright_soft_aacenc \
     libstagefright_soft_amrdec \
@@ -1272,17 +1248,13 @@ PRODUCT_PACKAGES += \
     libstagefright_soft_vorbisdec \
     libstagefright_soft_vpxdec \
     libstagefright_soft_vpxenc \
-    libstagefright_softomx \
-    libstagefright_softomx_plugin \
     libvcodec_utility_plat.mt6789 \
     libvolte_core_shr \
     libvolte_xdmc_shr \
-    libvorbisidec \
     libvp8dec_sa.ca7 \
     libvp8enc_sa.ca7 \
     libvp9dec_sa.ca7 \
     libvpud_vcodec \
-    libvpx \
     libvcodec_utility \
     libvcodec_utility_v3a \
     libvcodecdrv \
@@ -1299,59 +1271,19 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.3 \
     android.hardware.camera.device@3.4 \
     android.hardware.camera.device@3.5 \
-    android.hardware.camera.device@3.6 \
-    android.hardware.camera.provider@2.4 \
-    android.hardware.camera.provider@2.5 \
     android.hardware.gnss.measurement_corrections@1.1 \
     android.hardware.gnss.visibility_control@1.0 \
     android.hardware.gnss@1.0 \
     android.hardware.gnss@1.1 \
-    android.hardware.gnss@2.0 \
-    android.hardware.gnss@2.1 \
     android.hardware.graphics.composer@2.1 \
     android.hardware.graphics.composer@2.2 \
     android.hardware.graphics.composer@2.3 \
     android.hardware.light@2.0 \
     android.hardware.power-service-mediatek \
-    android.hardware.power@1.1 \
     android.hardware.power@1.2 \
-    android.hardware.radio.config@1.0 \
-    android.hardware.radio.config@1.1 \
-    android.hardware.radio.config@1.2 \
-    android.hardware.radio.config@1.3 \
-    android.hardware.radio@1.2 \
-    android.hardware.radio@1.3 \
-    android.hardware.radio@1.4 \
     android.hardware.radio@1.5 \
     android.hardware.radio@1.6 \
-    android.hardware.secure_element@1.0 \
-    android.hardware.secure_element@1.1 \
     android.hardware.secure_element@1.2 \
-    android.hardware.sensors@2.1 \
-    android.hardware.soundtrigger@2.2 \
-    android.hardware.tetheroffload.config@1.0 \
-    android.hardware.tetheroffload.control@1.0 \
-    android.hardware.tetheroffload.control@1.1 \
-    android.hardware.usb.gadget@1.0 \
-    android.hardware.usb.gadget@1.1 \
-    android.hardware.usb@1.0 \
-    android.hardware.usb@1.1 \
-    android.hardware.usb@1.3 \
-    android.hardware.wifi.hostapd@1.0 \
-    android.hardware.wifi.hostapd@1.1 \
-    android.hardware.wifi.hostapd@1.2 \
-    android.hardware.wifi.hostapd@1.3 \
-    android.hardware.wifi.supplicant@1.0 \
-    android.hardware.wifi.supplicant@1.1 \
-    android.hardware.wifi.supplicant@1.2 \
-    android.hardware.wifi.supplicant@1.3 \
-    android.hardware.wifi.supplicant@1.4 \
-    android.hardware.wifi@1.0 \
-    android.hardware.wifi@1.1 \
-    android.hardware.wifi@1.2 \
-    android.hardware.wifi@1.3 \
-    android.hardware.wifi@1.4 \
-    android.hardware.wifi@1.5 \
     android.hardware.boot@1.0-impl-1.2-mtkimpl \
     android.hardware.gnss-impl-mediatek \
     android.hardware.gnss@2.1-impl-mediatek \
@@ -1371,7 +1303,6 @@ PRODUCT_PACKAGES += \
     lib_eara_io_systracer \
     lib_eara_io_timer \
     lib_eara_io_util \
-    libavservices_minijail_vendor \
     libcam.seninfn3d \
     libcamalgo.3dnr \
     libcamalgo.dngop \
@@ -1396,7 +1327,6 @@ PRODUCT_PACKAGES += \
     libifcutils_mtk \
     libimagebuffer_wrapper \
     libkeymint_tool \
-    libkeystore-engine-wifi-hidl \
     libkmsetkey \
     libkphhelper \
     libkphproxy \
@@ -1422,7 +1352,6 @@ PRODUCT_PACKAGES += \
     libremosaiclib \
     librilfusion \
     librmsclib1 \
-    libsoft_attestation_cert \
     libtrm \
     libvia-ril \
     libviamipc-ril \
