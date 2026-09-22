@@ -776,56 +776,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.hardware.health@2.0-impl-2.1",
-    owner: "inoi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/hw/android.hardware.health@2.0-impl-2.1.so",
-            ],
-            shared_libs: [
-                "libbase",
-                "libcutils",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "android.hardware.health@2.1",
-                "android.hardware.health@2.0",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/hw/android.hardware.health@2.0-impl-2.1.so",
-            ],
-            shared_libs: [
-                "libbase",
-                "libcutils",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "android.hardware.health@2.1",
-                "android.hardware.health@2.0",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    relative_install_path: "hw",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "android.hardware.soundtrigger@2.3-impl",
     owner: "inoi",
     strip: {
@@ -38911,15 +38861,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-    name: "android.hardware.wifi.supplicant.xml",
-    owner: "inoi",
-    src: "proprietary/vendor/etc/vintf/manifest/android.hardware.wifi.supplicant.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
     name: "android.hardware.wifi@1.0-service.xml",
     owner: "inoi",
     src: "proprietary/vendor/etc/vintf/manifest/android.hardware.wifi@1.0-service.xml",
@@ -39254,31 +39195,6 @@ cc_prebuilt_binary {
             shared_libs: [
                 "libcutils",
                 "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "boringssl_self_test64",
-    owner: "inoi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/boringssl_self_test64",
-            ],
-            shared_libs: [
-                "libcrypto",
                 "libc++",
                 "libc",
                 "libm",

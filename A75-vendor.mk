@@ -738,7 +738,6 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio@2.1-impl \
     android.hardware.bluetooth@1.1-impl-mediatek \
     android.hardware.gatekeeper@1.0-impl \
-    android.hardware.health@2.0-impl-2.1 \
     android.hardware.soundtrigger@2.3-impl \
     android.hardware.thermal@1.0-impl \
     android.hardware.thermal@2.0-impl \
@@ -1896,7 +1895,6 @@ PRODUCT_PACKAGES += \
     android.hardware.security.sharedsecret-service.trustkernel.xml \
     android.hardware.usb@1.2-service-mediatekv2.xml \
     android.hardware.wifi.hostapd.xml \
-    android.hardware.wifi.supplicant.xml \
     android.hardware.wifi@1.0-service.xml \
     gnss-default.xml \
     gnss@2.1-service.xml \
@@ -1922,7 +1920,6 @@ PRODUCT_PACKAGES += \
     autobt \
     bip \
     bip_ap \
-    boringssl_self_test64 \
     bt_dump \
     ccci_fsd \
     ccci_mdinit \
