@@ -847,7 +847,6 @@ PRODUCT_PACKAGES += \
     libasn1c_mapi \
     libasn1c_mdmi \
     libaudio_param_parser-vnd \
-    libaudioclient_aidl_conversion \
     libaudiocompensationfilter_vendor \
     libaudiocompensationfilterc \
     libaudiocomponentengine_vendor \
@@ -1337,7 +1336,6 @@ PRODUCT_PACKAGES += \
     android.hardware.usb.gadget@1.1 \
     android.hardware.usb@1.0 \
     android.hardware.usb@1.1 \
-    android.hardware.usb@1.2 \
     android.hardware.usb@1.3 \
     android.hardware.wifi.hostapd@1.0 \
     android.hardware.wifi.hostapd@1.1 \
@@ -1397,7 +1395,6 @@ PRODUCT_PACKAGES += \
     libhwm \
     libifcutils_mtk \
     libimagebuffer_wrapper \
-    libkeymaster_portable \
     libkeymint_tool \
     libkeystore-engine-wifi-hidl \
     libkmsetkey \
