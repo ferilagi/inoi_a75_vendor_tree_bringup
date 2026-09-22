@@ -1626,7 +1626,6 @@ PRODUCT_PACKAGES += \
     libimsma_adapt \
     libimsma_rtp \
     libimsma_socketwrapper \
-    libmtk_vt_service \
     libpcap_bak \
     libshowlogo \
     libsignal \

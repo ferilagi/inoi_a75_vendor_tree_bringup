@@ -36265,52 +36265,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libmtk_vt_service",
-    owner: "inoi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system_ext/lib64/libmtk_vt_service.so",
-            ],
-            shared_libs: [
-                "libandroid_runtime",
-                "libbinder",
-                "libutils",
-                "libcutils",
-                "libnativehelper",
-                "libui",
-                "libgui",
-                "libmedia",
-                "libbase",
-                "libfmq",
-                "libbinder_ndk",
-                "vendor.mediatek.hardware.videotelephony@1.0",
-                "vendor.mediatek.hardware.videotelephony-V1-ndk",
-                "libhidlbase",
-                "libhidltransport",
-                "libimsma",
-                "libsource",
-                "libimsma_rtp",
-                "libvt_avsync",
-                "libstagefright_foundation",
-                "libvcodec_cap",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libpcap_bak",
     owner: "inoi",
     strip: {
