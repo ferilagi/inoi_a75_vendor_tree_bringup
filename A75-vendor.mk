@@ -733,7 +733,6 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.effect@6.0 \
     android.hardware.audio.effect@7.0 \
     android.hardware.audio@6.0 \
-    android.hardware.audio@7.0-util \
     android.hardware.audio@7.0 \
     android.hardware.bluetooth.audio@2.0 \
     android.hardware.bluetooth.audio@2.1 \
@@ -1299,8 +1298,8 @@ PRODUCT_PACKAGES += \
     APUWareApusysServer \
     APUWareHmpServer \
     APUWareUtilsServer \
-    android.hardware.audio.common@7.0-util \
     android.hardware.audio.effect@7.0-util \
+    android.hardware.audio@7.0-util \
     android.hardware.biometrics.fingerprint@2.1 \
     android.hardware.camera.common@1.0 \
     android.hardware.camera.device@1.0 \
