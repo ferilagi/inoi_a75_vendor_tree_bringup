@@ -38686,15 +38686,6 @@ dex_import {
 }
 
 prebuilt_etc_xml {
-    name: "android.hardware.cas@1.2-service-lazy.xml",
-    owner: "inoi",
-    src: "proprietary/vendor/etc/vintf/manifest/android.hardware.cas@1.2-service-lazy.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
     name: "android.hardware.health@2.1.xml",
     owner: "inoi",
     src: "proprietary/vendor/etc/vintf/manifest/android.hardware.health@2.1.xml",
@@ -38707,15 +38698,6 @@ prebuilt_etc_xml {
     name: "android.hardware.neuralnetworks-shim-service-mtk.xml",
     owner: "inoi",
     src: "proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks-shim-service-mtk.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
-    name: "android.hardware.nfc@1.2-service.samsung.xml",
-    owner: "inoi",
-    src: "proprietary/vendor/etc/vintf/manifest/android.hardware.nfc@1.2-service.samsung.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
     soc_specific: true,
@@ -38869,15 +38851,6 @@ prebuilt_etc_xml {
     name: "memtrack-mediatek.xml",
     owner: "inoi",
     src: "proprietary/vendor/etc/vintf/manifest/memtrack-mediatek.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
-    name: "power-default.xml",
-    owner: "inoi",
-    src: "proprietary/vendor/etc/vintf/manifest/power-default.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
     soc_specific: true,

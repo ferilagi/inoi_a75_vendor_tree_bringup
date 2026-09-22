@@ -1882,10 +1882,8 @@ PRODUCT_PACKAGES += \
     mediatek-telephony-base.jar \
     mediatek-telephony-common \
     mediatek-telephony-common.jar \
-    android.hardware.cas@1.2-service-lazy.xml \
     android.hardware.health@2.1.xml \
     android.hardware.neuralnetworks-shim-service-mtk.xml \
-    android.hardware.nfc@1.2-service.samsung.xml \
     android.hardware.security.keymint-service.trustkernel.xml \
     android.hardware.security.secureclock-service.trustkernel.xml \
     android.hardware.security.sharedsecret-service.trustkernel.xml \
@@ -1903,7 +1901,6 @@ PRODUCT_PACKAGES += \
     manifest_hwcomposer.xml \
     manifest_media_c2_V1_2_default.xml \
     memtrack-mediatek.xml \
-    power-default.xml \
     vendor.sprd.hardware.fingerprintmmi@1.0-service.xml \
     vibrator-mtk-default.xml \
     BuildManifestSystemExt.apk \
