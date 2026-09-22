@@ -1407,7 +1407,6 @@ PRODUCT_PACKAGES += \
     libheichal \
     libhfmanager \
     libhfmanagerwrapper \
-    libhwbinder \
     libhwm \
     libifcutils_mtk \
     libimagebuffer_wrapper \
