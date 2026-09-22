@@ -1894,7 +1894,6 @@ PRODUCT_PACKAGES += \
     android.hardware.security.secureclock-service.trustkernel.xml \
     android.hardware.security.sharedsecret-service.trustkernel.xml \
     android.hardware.usb@1.2-service-mediatekv2.xml \
-    android.hardware.wifi.hostapd.xml \
     android.hardware.wifi@1.0-service.xml \
     gnss-default.xml \
     gnss@2.1-service.xml \
