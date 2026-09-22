@@ -915,7 +915,6 @@ PRODUCT_PACKAGES += \
     libgz_gp_client \
     libgz_uree \
     libhevce_sb.ca7.android \
-    libhwbinder \
     libhydra \
     libicd_decoder \
     libimgsensorca \
@@ -1408,6 +1407,7 @@ PRODUCT_PACKAGES += \
     libheichal \
     libhfmanager \
     libhfmanagerwrapper \
+    libhwbinder \
     libhwm \
     libifcutils_mtk \
     libimagebuffer_wrapper \
