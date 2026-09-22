@@ -6,9 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/inoi/A75
 
 PRODUCT_COPY_FILES += \
-    vendor/inoi/A75/proprietary/odm_dlkm/etc/build.prop:$(TARGET_COPY_OUT_ODM_DLKM)/etc/build.prop \
-    vendor/inoi/A75/proprietary/odm_dlkm/etc/fs_config_dirs:$(TARGET_COPY_OUT_ODM_DLKM)/etc/fs_config_dirs \
-    vendor/inoi/A75/proprietary/odm_dlkm/etc/fs_config_files:$(TARGET_COPY_OUT_ODM_DLKM)/etc/fs_config_files \
     vendor/inoi/A75/proprietary/system_ext/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/a2dp_audio_policy_configuration.xml \
     vendor/inoi/A75/proprietary/system_ext/etc/a2dp_in_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/a2dp_in_audio_policy_configuration.xml \
     vendor/inoi/A75/proprietary/system_ext/etc/aee-commit:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/aee-commit \
