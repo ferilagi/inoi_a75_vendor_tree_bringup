@@ -1882,7 +1882,6 @@ PRODUCT_PACKAGES += \
     mediatek-telephony-base.jar \
     mediatek-telephony-common \
     mediatek-telephony-common.jar \
-    android.hardware.health@2.1.xml \
     android.hardware.neuralnetworks-shim-service-mtk.xml \
     android.hardware.security.keymint-service.trustkernel.xml \
     android.hardware.security.secureclock-service.trustkernel.xml \
@@ -1892,7 +1891,6 @@ PRODUCT_PACKAGES += \
     gnss@2.1-service.xml \
     lbs_hidl_service@1.0.xml \
     lights-mtk-default.xml \
-    manifest_android.hardware.drm@1.4-service.clearkey.xml \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
     manifest_apuware_apusys.xml \
     manifest_apuware_hmp.xml \

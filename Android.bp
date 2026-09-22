@@ -38686,15 +38686,6 @@ dex_import {
 }
 
 prebuilt_etc_xml {
-    name: "android.hardware.health@2.1.xml",
-    owner: "inoi",
-    src: "proprietary/vendor/etc/vintf/manifest/android.hardware.health@2.1.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
     name: "android.hardware.neuralnetworks-shim-service-mtk.xml",
     owner: "inoi",
     src: "proprietary/vendor/etc/vintf/manifest/android.hardware.neuralnetworks-shim-service-mtk.xml",
@@ -38770,15 +38761,6 @@ prebuilt_etc_xml {
     name: "lights-mtk-default.xml",
     owner: "inoi",
     src: "proprietary/vendor/etc/vintf/manifest/lights-mtk-default.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
-    name: "manifest_android.hardware.drm@1.4-service.clearkey.xml",
-    owner: "inoi",
-    src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.clearkey.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
     soc_specific: true,
