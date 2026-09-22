@@ -1895,7 +1895,6 @@ PRODUCT_PACKAGES += \
     android.hardware.security.sharedsecret-service.trustkernel.xml \
     android.hardware.usb@1.2-service-mediatekv2.xml \
     android.hardware.wifi@1.0-service.xml \
-    gnss-default.xml \
     gnss@2.1-service.xml \
     lbs_hidl_service@1.0.xml \
     lights-mtk-default.xml \

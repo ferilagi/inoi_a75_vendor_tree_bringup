@@ -38861,15 +38861,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-    name: "gnss-default.xml",
-    owner: "inoi",
-    src: "proprietary/vendor/etc/vintf/manifest/gnss-default.xml",
-    filename_from_src: true,
-    sub_dir: "vintf/manifest",
-    soc_specific: true,
-}
-
-prebuilt_etc_xml {
     name: "gnss@2.1-service.xml",
     owner: "inoi",
     src: "proprietary/vendor/etc/vintf/manifest/gnss@2.1-service.xml",
