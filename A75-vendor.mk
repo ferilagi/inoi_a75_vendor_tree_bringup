@@ -727,8 +727,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     android.hardware.audio.common@6.0 \
-    android.hardware.audio.common@7.0 \
-    android.hardware.audio.effect@6.0 \
     android.hardware.bluetooth.audio@2.1 \
     android.hardware.bluetooth@1.0 \
     android.hardware.bluetooth@1.1 \
@@ -1269,7 +1267,6 @@ PRODUCT_PACKAGES += \
     android.hardware.power-service-mediatek \
     android.hardware.power@1.2 \
     android.hardware.radio@1.5 \
-    android.hardware.radio@1.6 \
     android.hardware.secure_element@1.2 \
     android.hardware.boot@1.0-impl-1.2-mtkimpl \
     android.hardware.gnss-impl-mediatek \
