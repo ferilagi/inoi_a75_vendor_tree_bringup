@@ -961,7 +961,6 @@ PRODUCT_PACKAGES += \
     librgbwlightsensor \
     librpc \
     librt_extamp_intf \
-    libruy \
     libsimaka \
     libsimlock \
     libsimmelock \
