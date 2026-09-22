@@ -21,8 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/inoi/A75/proprietary/system_ext/etc/bluetooth_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/bluetooth_audio_policy_configuration.xml \
     vendor/inoi/A75/proprietary/system_ext/etc/custom.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/custom.conf \
     vendor/inoi/A75/proprietary/system_ext/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/default_volume_tables.xml \
-    vendor/inoi/A75/proprietary/system_ext/etc/fs_config_dirs:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/fs_config_dirs \
-    vendor/inoi/A75/proprietary/system_ext/etc/fs_config_files:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/fs_config_files \
     vendor/inoi/A75/proprietary/system_ext/etc/group:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/group \
     vendor/inoi/A75/proprietary/system_ext/etc/hearing_aid_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/hearing_aid_audio_policy_configuration.xml \
     vendor/inoi/A75/proprietary/system_ext/etc/init/aee_aed.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/aee_aed.rc \
