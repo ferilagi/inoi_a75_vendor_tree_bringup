@@ -897,7 +897,6 @@ PRODUCT_PACKAGES += \
     libcustom_nvram \
     libcvsd_mtk \
     libdecrypt \
-    libdrm \
     libdynamiclog \
     libfactorylib \
     libfgauge_gm30 \
