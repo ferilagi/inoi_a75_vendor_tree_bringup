@@ -923,8 +923,6 @@ PRODUCT_PACKAGES += \
     libpowerhal \
     libpowerhalwrap_vendor \
     libpqframework \
-    libprotobuf-cpp-full-3.9.1 \
-    libprotobuf-cpp-lite-3.9.1 \
     librgbwlightsensor \
     librpc \
     librt_extamp_intf \
