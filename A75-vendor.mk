@@ -728,9 +728,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0 \
     android.hardware.audio.common@5.0 \
-    android.hardware.audio.common@6.0-util \
     android.hardware.audio.common@6.0 \
-    android.hardware.audio.common@7.0-enums \
     android.hardware.audio.common@7.0-util \
     android.hardware.audio.common@7.0 \
     android.hardware.audio.effect@6.0-util \
@@ -1330,7 +1328,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@1.1 \
     android.hardware.gnss@2.0 \
     android.hardware.gnss@2.1 \
-    android.hardware.graphics.composer@2.1-resources \
     android.hardware.graphics.composer@2.1 \
     android.hardware.graphics.composer@2.2-resources \
     android.hardware.graphics.composer@2.2 \
@@ -1393,7 +1390,6 @@ PRODUCT_PACKAGES += \
     sensors.mediatek.V2.0 \
     lbs_hidl_service-impl \
     libVkLayer_mtk_rt_sdk \
-    lib_android_keymaster_keymint_utils \
     lib_eara_io_scndet \
     lib_eara_io_service \
     lib_eara_io_systracer \
@@ -1782,7 +1778,6 @@ PRODUCT_PACKAGES += \
     libaudiopolicycustomextensions \
     libccci_util_sys \
     libcomutils \
-    libfmjni \
     libimsma \
     libimsma_adapt \
     libimsma_rtp \

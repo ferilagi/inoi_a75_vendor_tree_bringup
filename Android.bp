@@ -96,51 +96,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.hardware.audio.common@6.0-util",
-    owner: "inoi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/android.hardware.audio.common@6.0-util.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libutils",
-                "libhidlbase",
-                "android.hardware.audio.common-util",
-                "android.hardware.audio.common@6.0",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.audio.common@6.0-util.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libutils",
-                "libhidlbase",
-                "android.hardware.audio.common-util",
-                "android.hardware.audio.common@6.0",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "android.hardware.audio.common@6.0",
     owner: "inoi",
     strip: {
@@ -173,45 +128,6 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libutils",
                 "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.audio.common@7.0-enums",
-    owner: "inoi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/android.hardware.audio.common@7.0-enums.so",
-            ],
-            shared_libs: [
-                "libbase",
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.audio.common@7.0-enums.so",
-            ],
-            shared_libs: [
-                "libbase",
-                "liblog",
                 "libc++",
                 "libc",
                 "libm",
@@ -25434,39 +25350,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.hardware.graphics.composer@2.1-resources",
-    owner: "inoi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.graphics.composer@2.1-resources.so",
-            ],
-            shared_libs: [
-                "android.hardware.graphics.composer@2.1",
-                "android.hardware.graphics.mapper@2.0",
-                "android.hardware.graphics.mapper@3.0",
-                "android.hardware.graphics.mapper@4.0",
-                "libcutils",
-                "libhardware",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "android.hardware.graphics.composer@2.1",
     owner: "inoi",
     strip: {
@@ -27498,33 +27381,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libVkLayer_mtk_rt_sdk.so",
             ],
             shared_libs: [
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "lib_android_keymaster_keymint_utils",
-    owner: "inoi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/lib_android_keymaster_keymint_utils.so",
-            ],
-            shared_libs: [
-                "android.hardware.security.keymint-V1-ndk_platform",
-                "libbase",
-                "libhardware",
-                "libc++",
                 "libc",
                 "libm",
                 "libdl",
@@ -41977,33 +41833,6 @@ cc_prebuilt_library_shared {
                 "libmedia",
                 "liblog",
                 "libhidlbase",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libfmjni",
-    owner: "inoi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system_ext/lib64/libfmjni.so",
-            ],
-            shared_libs: [
-                "libcutils",
-                "libmedia",
-                "liblog",
                 "libc++",
                 "libc",
                 "libm",
