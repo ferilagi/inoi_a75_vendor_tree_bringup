@@ -887,8 +887,6 @@ PRODUCT_PACKAGES += \
     libcharon-ss \
     libcmdl \
     libcmdl_ndk.mtk.vndk \
-    libcodec2_hidl@1.1 \
-    libcodec2_hidl@1.2 \
     libcodec2_hidl_plugin \
     libcodec2_mtk_c2store \
     libcodec2_mtk_vdec \
@@ -1402,7 +1400,6 @@ PRODUCT_PACKAGES += \
     lib_eara_io_timer \
     lib_eara_io_util \
     libavservices_minijail_vendor \
-    libbinderdebug \
     libcam.seninfn3d \
     libcamalgo.3dnr \
     libcamalgo.dngop \
