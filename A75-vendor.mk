@@ -726,24 +726,6 @@ PRODUCT_COPY_FILES += \
     vendor/inoi/A75/proprietary/vendor_dlkm/lib/modules/modules.softdep:$(TARGET_COPY_OUT_VENDOR_DLKM)/lib/modules/modules.softdep
 
 PRODUCT_PACKAGES += \
-    android.hardware.audio.common@6.0 \
-    android.hardware.bluetooth.audio@2.1 \
-    android.hardware.bluetooth@1.0 \
-    android.hardware.boot@1.2 \
-    android.hardware.drm@1.0 \
-    android.hardware.drm@1.1 \
-    android.hardware.drm@1.2 \
-    android.hardware.drm@1.4 \
-    android.hardware.gatekeeper@1.0 \
-    android.hardware.health@2.0 \
-    android.hardware.health@2.1 \
-    android.hardware.media.c2@1.0 \
-    android.hardware.media.c2@1.1 \
-    android.hardware.media.c2@1.2 \
-    android.hardware.nfc@1.0 \
-    android.hardware.nfc@1.2 \
-    android.hardware.radio@1.0 \
-    android.hardware.sensors@1.0 \
     libGLES_meow \
     libMEOW_data \
     libMEOW_gift \
@@ -1198,9 +1180,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.pq@2.9 \
     vendor.mediatek.hardware.videotelephony@1.0 \
     vendor.sprd.hardware.fingerprintmmi@1.0 \
-    android.hardware.cas.native@1.0 \
-    android.hardware.cas@1.0 \
-    android.hardware.cas@1.1 \
     libHEVCdec_sa.ca7.android \
     libMtkOmxAdpcmDec \
     libMtkOmxAlacDec \
@@ -1251,20 +1230,7 @@ PRODUCT_PACKAGES += \
     APUWareApusysServer \
     APUWareHmpServer \
     APUWareUtilsServer \
-    android.hardware.biometrics.fingerprint@2.1 \
-    android.hardware.camera.common@1.0 \
-    android.hardware.camera.device@1.0 \
-    android.hardware.camera.device@3.2 \
-    android.hardware.camera.device@3.3 \
-    android.hardware.camera.device@3.4 \
-    android.hardware.gnss.measurement_corrections@1.1 \
-    android.hardware.gnss.visibility_control@1.0 \
-    android.hardware.graphics.composer@2.2 \
-    android.hardware.graphics.composer@2.3 \
-    android.hardware.light@2.0 \
     android.hardware.power-service-mediatek \
-    android.hardware.power@1.2 \
-    android.hardware.radio@1.5 \
     android.hardware.boot@1.0-impl-1.2-mtkimpl \
     android.hardware.gnss-impl-mediatek \
     android.hardware.gnss@2.1-impl-mediatek \
