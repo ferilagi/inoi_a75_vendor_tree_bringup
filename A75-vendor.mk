@@ -1257,7 +1257,6 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.2 \
     android.hardware.camera.device@3.3 \
     android.hardware.camera.device@3.4 \
-    android.hardware.camera.device@3.5 \
     android.hardware.gnss.measurement_corrections@1.1 \
     android.hardware.gnss.visibility_control@1.0 \
     android.hardware.graphics.composer@2.2 \
@@ -1266,7 +1265,6 @@ PRODUCT_PACKAGES += \
     android.hardware.power-service-mediatek \
     android.hardware.power@1.2 \
     android.hardware.radio@1.5 \
-    android.hardware.secure_element@1.2 \
     android.hardware.boot@1.0-impl-1.2-mtkimpl \
     android.hardware.gnss-impl-mediatek \
     android.hardware.gnss@2.1-impl-mediatek \
