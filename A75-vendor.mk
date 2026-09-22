@@ -1271,7 +1271,6 @@ PRODUCT_PACKAGES += \
     libhwm \
     libifcutils_mtk \
     libimagebuffer_wrapper \
-    libkeymint_tool \
     libkmsetkey \
     libkphhelper \
     libkphproxy \

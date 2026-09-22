@@ -22778,39 +22778,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libkeymint_tool",
-    owner: "inoi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libkeymint_tool.so",
-            ],
-            shared_libs: [
-                "libhardware",
-                "liblog",
-                "libteec",
-                "libcutils",
-                "libcrypto",
-                "libcppcose_rkp",
-                "android.hardware.security.keymint-V1-ndk",
-                "libkeymint",
-                "libkeymaster_messages",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libkmsetkey",
     owner: "inoi",
     strip: {
