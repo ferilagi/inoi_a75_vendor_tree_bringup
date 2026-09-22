@@ -1919,7 +1919,6 @@ PRODUCT_PACKAGES += \
     BuildManifestSystemExt.apk \
     BuildManifestSystemExt.apk.idsig \
     AgentTest \
-    applypatch \
     atcid \
     audiocmdservice_atci \
     autobt \
