@@ -980,7 +980,6 @@ PRODUCT_PACKAGES += \
     librt_extamp_intf \
     libruy \
     libsensorndkbridge \
-    libshmemutil \
     libsimaka \
     libsimlock \
     libsimmelock \
