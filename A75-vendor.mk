@@ -729,7 +729,6 @@ PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0 \
     android.hardware.audio.common@5.0 \
     android.hardware.audio.common@6.0 \
-    android.hardware.audio.common@7.0-util \
     android.hardware.audio.common@7.0 \
     android.hardware.audio.effect@6.0 \
     android.hardware.audio.effect@7.0-util \
@@ -1303,6 +1302,7 @@ PRODUCT_PACKAGES += \
     APUWareApusysServer \
     APUWareHmpServer \
     APUWareUtilsServer \
+    android.hardware.audio.common@7.0-util \
     android.hardware.biometrics.fingerprint@2.1 \
     android.hardware.camera.common@1.0 \
     android.hardware.camera.device@1.0 \
