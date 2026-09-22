@@ -1684,8 +1684,6 @@ PRODUCT_PACKAGES += \
     libpcap_bak \
     libshowlogo \
     libsignal \
-    libsink \
-    libsource \
     libvt_avsync \
     vendor.mediatek.framework.mtksf_ext-V3-ndk \
     vendor.mediatek.hardware.composer_ext-V1-ndk \
