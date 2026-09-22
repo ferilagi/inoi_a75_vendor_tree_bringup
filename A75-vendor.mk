@@ -731,7 +731,6 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.common@6.0 \
     android.hardware.audio.common@7.0-util \
     android.hardware.audio.common@7.0 \
-    android.hardware.audio.effect@6.0-util \
     android.hardware.audio.effect@6.0 \
     android.hardware.audio.effect@7.0-util \
     android.hardware.audio.effect@7.0 \
@@ -889,13 +888,11 @@ PRODUCT_PACKAGES += \
     libcodec2_mtk_c2store \
     libcodec2_mtk_vdec \
     libcodec2_mtk_venc \
-    libcodec2_soft_common \
     libcodec2_soft_mtk_alacdec \
     libcodec2_soft_mtk_apedec \
     libcodec2_soft_mtk_imaadpcmdec \
     libcodec2_soft_mtk_mp3dec \
     libcodec2_soft_mtk_msadpcmdec \
-    libcodec2_vndk \
     libcodec2_vpp_qt_plugin \
     libcodec2_vpp_rs_plugin \
     libconnfem \
@@ -910,7 +907,6 @@ PRODUCT_PACKAGES += \
     libfactorylib \
     libfgauge_gm30 \
     libfile_op \
-    libflatbuffers-cpp \
     libformatter \
     libfp_ext_svc2 \
     libged \
@@ -922,7 +918,6 @@ PRODUCT_PACKAGES += \
     libgz_gp_client \
     libgz_uree \
     libhevce_sb.ca7.android \
-    libhidltransport \
     libhwbinder \
     libhydra \
     libicd_decoder \
@@ -1320,7 +1315,6 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.6 \
     android.hardware.camera.provider@2.4 \
     android.hardware.camera.provider@2.5 \
-    android.hardware.camera.provider@2.6 \
     android.hardware.gnss.measurement_corrections@1.0 \
     android.hardware.gnss.measurement_corrections@1.1 \
     android.hardware.gnss.visibility_control@1.0 \
@@ -1348,7 +1342,6 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.0 \
     android.hardware.secure_element@1.1 \
     android.hardware.secure_element@1.2 \
-    android.hardware.sensors@2.0 \
     android.hardware.sensors@2.1 \
     android.hardware.tetheroffload.config@1.0 \
     android.hardware.tetheroffload.control@1.0 \

@@ -235,55 +235,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.hardware.audio.effect@6.0-util",
-    owner: "inoi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/android.hardware.audio.effect@6.0-util.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libutils",
-                "libhidlbase",
-                "android.hardware.audio.common-util",
-                "android.hardware.audio.common@6.0",
-                "android.hardware.audio.common@6.0-util",
-                "android.hardware.audio.effect@6.0",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.audio.effect@6.0-util.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libutils",
-                "libhidlbase",
-                "android.hardware.audio.common-util",
-                "android.hardware.audio.common@6.0",
-                "android.hardware.audio.common@6.0-util",
-                "android.hardware.audio.effect@6.0",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "android.hardware.audio.effect@6.0",
     owner: "inoi",
     strip: {
@@ -7776,57 +7727,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libcodec2_soft_common",
-    owner: "inoi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libcodec2_soft_common.so",
-            ],
-            shared_libs: [
-                "libbase",
-                "libcodec2",
-                "libcodec2_vndk",
-                "libutils",
-                "libcutils",
-                "liblog",
-                "libsfplugin_ccodec_utils",
-                "libstagefright_foundation",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libcodec2_soft_common.so",
-            ],
-            shared_libs: [
-                "libbase",
-                "libcodec2",
-                "libcodec2_vndk",
-                "libutils",
-                "libcutils",
-                "liblog",
-                "libsfplugin_ccodec_utils",
-                "libstagefright_foundation",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libcodec2_soft_mtk_alacdec",
     owner: "inoi",
     strip: {
@@ -8091,73 +7991,6 @@ cc_prebuilt_library_shared {
                 "libcodec2_mtk_c2store",
                 "libadpcmdec_mtk",
                 "libmtk_drvb",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libcodec2_vndk",
-    owner: "inoi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libcodec2_vndk.so",
-            ],
-            shared_libs: [
-                "android.hardware.graphics.bufferqueue@2.0",
-                "android.hardware.graphics.common@1.2",
-                "android.hardware.media.bufferpool@2.0",
-                "libbase",
-                "libcutils",
-                "libhardware",
-                "libhidlbase",
-                "libion",
-                "libdmabufheap",
-                "libfmq",
-                "liblog",
-                "libnativewindow",
-                "libstagefright_foundation",
-                "libstagefright_bufferpool@2.0.1",
-                "libui",
-                "libutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libcodec2_vndk.so",
-            ],
-            shared_libs: [
-                "android.hardware.graphics.bufferqueue@2.0",
-                "android.hardware.graphics.common@1.2",
-                "android.hardware.media.bufferpool@2.0",
-                "libbase",
-                "libcutils",
-                "libhardware",
-                "libhidlbase",
-                "libion",
-                "libdmabufheap",
-                "libfmq",
-                "liblog",
-                "libnativewindow",
-                "libstagefright_foundation",
-                "libstagefright_bufferpool@2.0.1",
-                "libui",
-                "libutils",
                 "libc++",
                 "libc",
                 "libm",
@@ -8775,41 +8608,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libflatbuffers-cpp",
-    owner: "inoi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libflatbuffers-cpp.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libflatbuffers-cpp.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libformatter",
     owner: "inoi",
     strip: {
@@ -9349,41 +9147,6 @@ cc_prebuilt_library_shared {
                 "libdl",
                 "libc",
                 "libm",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libhidltransport",
-    owner: "inoi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libhidltransport.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libhidltransport.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
             ],
         },
     },
@@ -25103,42 +24866,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.hardware.camera.provider@2.6",
-    owner: "inoi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.camera.provider@2.6.so",
-            ],
-            shared_libs: [
-                "android.hardware.camera.common@1.0",
-                "android.hardware.camera.device@1.0",
-                "android.hardware.camera.device@3.2",
-                "android.hardware.camera.device@3.3",
-                "android.hardware.camera.device@3.4",
-                "android.hardware.camera.provider@2.4",
-                "android.hardware.camera.provider@2.5",
-                "android.hardware.graphics.common@1.0",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "android.hardware.gnss.measurement_corrections@1.0",
     owner: "inoi",
     strip: {
@@ -25953,35 +25680,6 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "android.hardware.secure_element@1.0",
                 "android.hardware.secure_element@1.1",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "android.hardware.sensors@2.0",
-    owner: "inoi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.sensors@2.0.so",
-            ],
-            shared_libs: [
-                "android.hardware.sensors@1.0",
                 "libhidlbase",
                 "liblog",
                 "libutils",
