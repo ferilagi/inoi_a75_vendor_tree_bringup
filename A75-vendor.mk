@@ -1329,7 +1329,6 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@2.0 \
     android.hardware.gnss@2.1 \
     android.hardware.graphics.composer@2.1 \
-    android.hardware.graphics.composer@2.2-resources \
     android.hardware.graphics.composer@2.2 \
     android.hardware.graphics.composer@2.3 \
     android.hardware.graphics.composer@2.4 \
@@ -1349,7 +1348,6 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.0 \
     android.hardware.secure_element@1.1 \
     android.hardware.secure_element@1.2 \
-    android.hardware.sensors@2.0-ScopedWakelock \
     android.hardware.sensors@2.0 \
     android.hardware.sensors@2.1 \
     android.hardware.tetheroffload.config@1.0 \
@@ -2095,7 +2093,6 @@ PRODUCT_PACKAGES += \
     chipinfo \
     cmd_services \
     conninfra_loader \
-    dmabuf_dump \
     dmc_core \
     eara_io_service \
     epdg_wod \
