@@ -1618,7 +1618,6 @@ PRODUCT_PACKAGES += \
     vendor.trustonic.tee@1.0 \
     vendor.trustonic.tee@1.1 \
     libapu_mdw_ext.mtk \
-    libaudiopolicycustomextensions \
     libccci_util_sys \
     libcomutils \
     libimsma_adapt \

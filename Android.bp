@@ -36069,54 +36069,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libaudiopolicycustomextensions",
-    owner: "inoi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system_ext/lib64/libaudiopolicycustomextensions.so",
-            ],
-            shared_libs: [
-                "libaudiofoundation",
-                "libcutils",
-                "libutils",
-                "liblog",
-                "libbinder",
-                "libaudioclient",
-                "libhardware_legacy",
-                "libmediautils",
-                "libaudiopolicymanagerdefault",
-                "libaudiousecasevalidation",
-                "libmedia_helper",
-                "libsensorprivacy",
-                "libaudiopolicyengineconfigurable",
-                "libaudiocompensationfilter",
-                "libaudioflinger",
-                "libmediametrics",
-                "libaudiotoolkit",
-                "libaudioutilmtk",
-                "libaudioutils",
-                "libactivitymanager_aidl",
-                "libheadtracking",
-                "libheadtracking-binding",
-                "packagemanager_aidl-cpp",
-                "spatializer-aidl-cpp",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    system_ext_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libccci_util_sys",
     owner: "inoi",
     strip: {
