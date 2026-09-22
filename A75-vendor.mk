@@ -727,7 +727,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0 \
-    android.hardware.audio.common-util \
     android.hardware.audio.common@5.0 \
     android.hardware.audio.common@6.0-util \
     android.hardware.audio.common@6.0 \
@@ -888,7 +887,6 @@ PRODUCT_PACKAGES += \
     libcharon-ss \
     libcmdl \
     libcmdl_ndk.mtk.vndk \
-    libcodec2_hidl@1.0 \
     libcodec2_hidl@1.1 \
     libcodec2_hidl@1.2 \
     libcodec2_hidl_plugin \
