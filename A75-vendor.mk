@@ -1882,7 +1882,6 @@ PRODUCT_PACKAGES += \
     mediatek-telephony-base.jar \
     mediatek-telephony-common \
     mediatek-telephony-common.jar \
-    android.hardware.boot@1.2.xml \
     android.hardware.cas@1.2-service-lazy.xml \
     android.hardware.health@2.1.xml \
     android.hardware.neuralnetworks-shim-service-mtk.xml \
