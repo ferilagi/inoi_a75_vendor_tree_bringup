@@ -989,7 +989,6 @@ PRODUCT_PACKAGES += \
     libstrongswan \
     libsysenv \
     libteec \
-    libtextclassifier_hash \
     libtflite_mtk \
     libthha \
     libtinycompress \
@@ -1426,7 +1425,6 @@ PRODUCT_PACKAGES += \
     libremosaiclib \
     librilfusion \
     librmsclib1 \
-    libshmemcompat \
     libsoft_attestation_cert \
     libtrm \
     libvia-ril \

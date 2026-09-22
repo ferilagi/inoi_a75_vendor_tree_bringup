@@ -12123,41 +12123,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libtextclassifier_hash",
-    owner: "inoi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libtextclassifier_hash.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libtextclassifier_hash.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libtflite_mtk",
     owner: "inoi",
     strip: {
@@ -28139,34 +28104,6 @@ cc_prebuilt_library_shared {
                 "libdl",
                 "liblog",
                 "libc",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libshmemcompat",
-    owner: "inoi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libshmemcompat.so",
-            ],
-            shared_libs: [
-                "libbinder",
-                "libshmemutil",
-                "libutils",
-                "shared-file-region-aidl-cpp",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
             ],
         },
     },
