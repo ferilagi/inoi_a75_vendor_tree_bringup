@@ -965,7 +965,6 @@ PRODUCT_PACKAGES += \
     libnvram \
     libnvram_sec \
     libnxp_extamp_intf \
-    libpcap \
     libperfctl_vendor \
     libpixelflinger \
     libpkm \
