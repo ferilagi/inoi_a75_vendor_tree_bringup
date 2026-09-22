@@ -764,7 +764,6 @@ PRODUCT_PACKAGES += \
     android.hardware.radio@1.1 \
     android.hardware.sensors@1.0 \
     android.hardware.soundtrigger@2.1 \
-    android.hardware.soundtrigger@2.2 \
     android.hardware.soundtrigger@2.3 \
     android.hardware.thermal@1.0 \
     android.hardware.thermal@2.0 \
@@ -1315,7 +1314,6 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.6 \
     android.hardware.camera.provider@2.4 \
     android.hardware.camera.provider@2.5 \
-    android.hardware.gnss.measurement_corrections@1.0 \
     android.hardware.gnss.measurement_corrections@1.1 \
     android.hardware.gnss.visibility_control@1.0 \
     android.hardware.gnss@1.0 \
@@ -1343,6 +1341,7 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.1 \
     android.hardware.secure_element@1.2 \
     android.hardware.sensors@2.1 \
+    android.hardware.soundtrigger@2.2 \
     android.hardware.tetheroffload.config@1.0 \
     android.hardware.tetheroffload.control@1.0 \
     android.hardware.tetheroffload.control@1.1 \

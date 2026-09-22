@@ -1806,55 +1806,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.hardware.soundtrigger@2.2",
-    owner: "inoi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/android.hardware.soundtrigger@2.2.so",
-            ],
-            shared_libs: [
-                "android.hardware.audio.common@2.0",
-                "android.hardware.soundtrigger@2.0",
-                "android.hardware.soundtrigger@2.1",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.soundtrigger@2.2.so",
-            ],
-            shared_libs: [
-                "android.hardware.audio.common@2.0",
-                "android.hardware.soundtrigger@2.0",
-                "android.hardware.soundtrigger@2.1",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "android.hardware.soundtrigger@2.3",
     owner: "inoi",
     strip: {
@@ -24866,35 +24817,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "android.hardware.gnss.measurement_corrections@1.0",
-    owner: "inoi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/android.hardware.gnss.measurement_corrections@1.0.so",
-            ],
-            shared_libs: [
-                "android.hardware.gnss@1.0",
-                "libhidlbase",
-                "liblog",
-                "libutils",
-                "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "android.hardware.gnss.measurement_corrections@1.1",
     owner: "inoi",
     strip: {
@@ -25710,6 +25632,37 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "android.hardware.sensors@1.0",
                 "android.hardware.sensors@2.0",
+                "libhidlbase",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "android.hardware.soundtrigger@2.2",
+    owner: "inoi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/android.hardware.soundtrigger@2.2.so",
+            ],
+            shared_libs: [
+                "android.hardware.audio.common@2.0",
+                "android.hardware.soundtrigger@2.0",
+                "android.hardware.soundtrigger@2.1",
                 "libhidlbase",
                 "liblog",
                 "libutils",
