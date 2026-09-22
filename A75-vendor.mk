@@ -989,7 +989,6 @@ PRODUCT_PACKAGES += \
     libspeech_enh_lib \
     libspeechparser_vendor \
     libssl-md \
-    libstagefright_bufferpool@2.0.1 \
     libstagefrighthw \
     libstorage_otp \
     libstrongswan \
@@ -1441,6 +1440,7 @@ PRODUCT_PACKAGES += \
     librilfusion \
     librmsclib1 \
     libsoft_attestation_cert \
+    libstagefright_bufferpool@2.0.1 \
     libtrm \
     libvia-ril \
     libviamipc-ril \
