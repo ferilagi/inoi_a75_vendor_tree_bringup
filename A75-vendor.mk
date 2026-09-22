@@ -6,7 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/inoi/A75
 
 PRODUCT_COPY_FILES += \
-    vendor/inoi/A75/proprietary/odm_dlkm/etc/NOTICE.xml.gz:$(TARGET_COPY_OUT_ODM_DLKM)/etc/NOTICE.xml.gz \
     vendor/inoi/A75/proprietary/odm_dlkm/etc/build.prop:$(TARGET_COPY_OUT_ODM_DLKM)/etc/build.prop \
     vendor/inoi/A75/proprietary/odm_dlkm/etc/fs_config_dirs:$(TARGET_COPY_OUT_ODM_DLKM)/etc/fs_config_dirs \
     vendor/inoi/A75/proprietary/odm_dlkm/etc/fs_config_files:$(TARGET_COPY_OUT_ODM_DLKM)/etc/fs_config_files \
