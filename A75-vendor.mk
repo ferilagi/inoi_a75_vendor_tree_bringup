@@ -739,7 +739,6 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.2 \
     android.hardware.drm@1.4 \
     android.hardware.gatekeeper@1.0 \
-    android.hardware.health@1.0 \
     android.hardware.health@2.0 \
     android.hardware.health@2.1 \
     android.hardware.media.c2@1.0 \
