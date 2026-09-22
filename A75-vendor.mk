@@ -1436,7 +1436,6 @@ PRODUCT_PACKAGES += \
     libneuron_platform \
     libnpagent_server \
     libpl \
-    libpuresoftkeymasterdevice \
     libratconfig \
     libremosaic_wrapper \
     libremosaiclib \
