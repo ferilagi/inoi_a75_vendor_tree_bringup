@@ -1298,7 +1298,6 @@ PRODUCT_PACKAGES += \
     APUWareApusysServer \
     APUWareHmpServer \
     APUWareUtilsServer \
-    android.hardware.audio.effect@7.0-util \
     android.hardware.biometrics.fingerprint@2.1 \
     android.hardware.camera.common@1.0 \
     android.hardware.camera.device@1.0 \
@@ -1393,7 +1392,6 @@ PRODUCT_PACKAGES += \
     libcamalgo.platform \
     libcamalgo.warp \
     libcomposer_ext \
-    libcppcose_rkp \
     libem_sensor_jni \
     libfft_vendor \
     libforkexecwrap \
@@ -1440,7 +1438,6 @@ PRODUCT_PACKAGES += \
     libvpu \
     libwifitest \
     libwpfa \
-    libz_stable \
     lib3a.ae.stat \
     lib3a.af.assist \
     lib3a.af.assist.utils \
