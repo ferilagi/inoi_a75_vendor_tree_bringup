@@ -1402,7 +1402,6 @@ PRODUCT_PACKAGES += \
     libhwm \
     libifcutils_mtk \
     libimagebuffer_wrapper \
-    libkeymaster_messages \
     libkeymaster_portable \
     libkeymint_tool \
     libkeystore-engine-wifi-hidl \
