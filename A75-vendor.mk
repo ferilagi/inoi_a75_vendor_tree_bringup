@@ -1652,11 +1652,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.mtkradioex@3.0 \
     vendor.mediatek.hardware.power@1.1 \
     vendor.mediatek.hardware.power@2.0 \
-    android.hardware.radio.config@1.1 \
-    android.hardware.radio.config@1.2 \
-    android.hardware.radio.config@1.3 \
-    android.hardware.radio@1.5 \
-    android.hardware.radio@1.6 \
     libJpegOal \
     libMiraVision_jni \
     libPQDCjni \
@@ -1737,9 +1732,7 @@ PRODUCT_PACKAGES += \
     libmvpuop_mtk_cv.mtk \
     libmvpuop_mtk_nn.mtk \
     libnativecheck-jni \
-    libneuron_graph_delegate.mtk \
     libneuronusdk_adapter.mtk \
-    libneuropilot_hal_utils \
     libnir_neon_driver_ndk.mtk \
     libperfctl \
     libpowerhalwrap \
@@ -1753,9 +1746,7 @@ PRODUCT_PACKAGES += \
     libteeservice_client.trustonic \
     libterservice \
     libtflite_mtk.mtk \
-    libtflite_mtk \
     libthroughputmode \
-    libudf \
     libui_ext \
     libvcodec_cap \
     libvcodec_capenc \
@@ -1781,44 +1772,25 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.aee@1.1 \
     vendor.mediatek.hardware.apuware.apusys-V3-ndk \
     vendor.mediatek.hardware.apuware.apusys@1.0 \
-    vendor.mediatek.hardware.apuware.apusys@2.0 \
-    vendor.mediatek.hardware.apuware.apusys@2.1 \
-    vendor.mediatek.hardware.apuware.hmp@1.0 \
     vendor.mediatek.hardware.apuware.utils-V1-ndk \
     vendor.mediatek.hardware.apuware.utils@1.0 \
-    vendor.mediatek.hardware.apuware.utils@2.0 \
     vendor.mediatek.hardware.apuware.xrp@1.0 \
     vendor.mediatek.hardware.apuware.xrp@2.0 \
     vendor.mediatek.hardware.audio-V1-ndk \
-    vendor.mediatek.hardware.audio@7.1 \
     vendor.mediatek.hardware.audio@8.1 \
     vendor.mediatek.hardware.mbrain-V2-ndk \
-    vendor.mediatek.hardware.mms@1.0 \
-    vendor.mediatek.hardware.mms@1.1 \
-    vendor.mediatek.hardware.mms@1.2 \
-    vendor.mediatek.hardware.mms@1.3 \
     vendor.mediatek.hardware.mtkpower-V1-ndk \
-    vendor.mediatek.hardware.mtkpower@1.0 \
-    vendor.mediatek.hardware.mtkpower@1.1 \
-    vendor.mediatek.hardware.mtkpower@1.2 \
     vendor.mediatek.hardware.mtkpower_applist-V1-ndk \
     vendor.mediatek.hardware.mtkradioex.rsu-V1-ndk \
     vendor.mediatek.hardware.mtkradioex.se-V1-ndk \
     vendor.mediatek.hardware.mtkradioex.sim-V1-ndk \
-    vendor.mediatek.hardware.mtkradioex@3.0 \
-    vendor.mediatek.hardware.pq@2.0 \
-    vendor.mediatek.hardware.pq@2.1 \
-    vendor.mediatek.hardware.pq@2.2 \
-    vendor.mediatek.hardware.pq@2.3 \
     vendor.mediatek.hardware.pq_aidl-V2-ndk \
     vendor.mediatek.hardware.videotelephony-V1-ndk \
-    vendor.mediatek.hardware.videotelephony@1.0 \
     vendor.trustonic.tee@1.0 \
     vendor.trustonic.tee@1.1 \
     libapu_mdw_ext.mtk \
     libaudiopolicycustomextensions \
     libccci_util_sys \
-    libcomposer_ext \
     libcomutils \
     libfmjni \
     libimsma \
@@ -1834,8 +1806,6 @@ PRODUCT_PACKAGES += \
     libvt_avsync \
     vendor.mediatek.framework.mtksf_ext-V3-ndk \
     vendor.mediatek.hardware.composer_ext-V1-ndk \
-    vendor.mediatek.hardware.composer_ext@1.0 \
-    vendor.mediatek.hardware.lbs@1.0 \
     vendor.mediatek.hardware.log-V1-ndk \
     vendor.mediatek.hardware.log@1.0 \
     adsp \
