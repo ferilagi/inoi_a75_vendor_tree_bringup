@@ -41277,53 +41277,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "meta_tst",
-    owner: "inoi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/meta_tst",
-            ],
-            shared_libs: [
-                "libpl",
-                "libkphproxy",
-                "libkphhelper",
-                "libkeymint_tool",
-                "libhardware_legacy",
-                "libcutils",
-                "libbase",
-                "liblog",
-                "libutils",
-                "libccci_util",
-                "libhfmanagerwrapper",
-                "libnetutils",
-                "libselinux",
-                "vendor.mediatek.hardware.nvram@1.1",
-                "libnvram",
-                "libfile_op",
-                "libhardware",
-                "libbinder",
-                "libhidlbase",
-                "libhidltransport",
-                "vendor.mediatek.hardware.lbs@1.0",
-                "libkmsetkey",
-                "libsysenv",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "mnld",
     owner: "inoi",
     target: {

@@ -1983,7 +1983,6 @@ PRODUCT_PACKAGES += \
     kph \
     lbs_hidl_service \
     memtester \
-    meta_tst \
     mnld \
     mt6660_calibration \
     dumpfaultd.mt6789 \
