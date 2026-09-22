@@ -1623,7 +1623,6 @@ PRODUCT_PACKAGES += \
     libaudiopolicycustomextensions \
     libccci_util_sys \
     libcomutils \
-    libimsma \
     libimsma_adapt \
     libimsma_rtp \
     libimsma_socketwrapper \
@@ -1631,8 +1630,6 @@ PRODUCT_PACKAGES += \
     libpcap_bak \
     libshowlogo \
     libsignal \
-    libsink \
-    libsource \
     libvt_avsync \
     vendor.mediatek.framework.mtksf_ext-V3-ndk \
     vendor.mediatek.hardware.composer_ext-V1-ndk \
