@@ -26959,38 +26959,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libaudiofoundation",
-    owner: "inoi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libaudiofoundation.so",
-            ],
-            shared_libs: [
-                "audioclient-types-aidl-cpp",
-                "libaudioclient_aidl_conversion",
-                "libaudioutils",
-                "libbase",
-                "libbinder",
-                "liblog",
-                "libmedia_helper",
-                "libutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libavservices_minijail_vendor",
     owner: "inoi",
     strip: {

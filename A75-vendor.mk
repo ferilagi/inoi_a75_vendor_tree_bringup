@@ -1382,7 +1382,6 @@ PRODUCT_PACKAGES += \
     lib_eara_io_systracer \
     lib_eara_io_timer \
     lib_eara_io_util \
-    libaudiofoundation \
     libavservices_minijail_vendor \
     libcam.seninfn3d \
     libcamalgo.3dnr \
