@@ -1265,7 +1265,6 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.5 \
     android.hardware.gnss.measurement_corrections@1.1 \
     android.hardware.gnss.visibility_control@1.0 \
-    android.hardware.graphics.composer@2.1 \
     android.hardware.graphics.composer@2.2 \
     android.hardware.graphics.composer@2.3 \
     android.hardware.light@2.0 \
