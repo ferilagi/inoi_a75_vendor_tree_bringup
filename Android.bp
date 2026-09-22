@@ -41263,41 +41263,6 @@ cc_prebuilt_binary {
     soc_specific: true,
 }
 
-cc_prebuilt_binary {
-    name: "vtservice_hidl",
-    owner: "inoi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/vtservice_hidl",
-            ],
-            shared_libs: [
-                "libutils",
-                "libcutils",
-                "liblog",
-                "libbase",
-                "libfmq",
-                "vendor.mediatek.hardware.videotelephony@1.0",
-                "libhardware",
-                "libhwbinder",
-                "libhidlbase",
-                "libhidltransport",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
 sh_binary {
     name: "init.insmod",
     owner: "inoi",
@@ -43479,35 +43444,6 @@ cc_prebuilt_binary {
                 "libpcap_bak",
                 "liblog",
                 "libcutils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    system_ext_specific: true,
-}
-
-cc_prebuilt_binary {
-    name: "vtservice",
-    owner: "inoi",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system_ext/bin/vtservice",
-            ],
-            shared_libs: [
-                "libbinder",
-                "libutils",
-                "libcutils",
-                "liblog",
-                "libmtk_vt_service",
                 "libc++",
                 "libc",
                 "libm",

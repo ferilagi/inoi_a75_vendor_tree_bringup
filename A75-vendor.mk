@@ -44,7 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/inoi/A75/proprietary/system_ext/etc/init/hw/vendor_init_as_system.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/hw/vendor_init_as_system.rc \
     vendor/inoi/A75/proprietary/system_ext/etc/init/init.lbs_dbg.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.lbs_dbg.rc \
     vendor/inoi/A75/proprietary/system_ext/etc/init/init.thermald.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.thermald.rc \
-    vendor/inoi/A75/proprietary/system_ext/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.vtservice.rc \
     vendor/inoi/A75/proprietary/system_ext/etc/init/kpoc_charger.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/kpoc_charger.rc \
     vendor/inoi/A75/proprietary/system_ext/etc/init/loghidlsysservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/loghidlsysservice.rc \
     vendor/inoi/A75/proprietary/system_ext/etc/init/mdlogger.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/mdlogger.rc \
@@ -315,7 +314,6 @@ PRODUCT_COPY_FILES += \
     vendor/inoi/A75/proprietary/vendor/etc/init/init.volte_md_status.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.volte_md_status.rc \
     vendor/inoi/A75/proprietary/vendor/etc/init/init.volte_stack.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.volte_stack.rc \
     vendor/inoi/A75/proprietary/vendor/etc/init/init.volte_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.volte_ua.rc \
-    vendor/inoi/A75/proprietary/vendor/etc/init/init.vtservice_hidl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vtservice_hidl.rc \
     vendor/inoi/A75/proprietary/vendor/etc/init/init.wfca.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wfca.rc \
     vendor/inoi/A75/proprietary/vendor/etc/init/init.wlan_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wlan_drv.rc \
     vendor/inoi/A75/proprietary/vendor/etc/init/init.wmt_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wmt_drv.rc \
@@ -1983,7 +1981,6 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.nvram@1.1-service \
     vendor.mediatek.hardware.pq@2.2-service \
     vendor.sprd.hardware.fingerprintmmi@1.0-service \
-    vtservice_hidl \
     init.insmod \
     ipsec_mon \
     kph \
@@ -2059,5 +2056,4 @@ PRODUCT_PACKAGES += \
     rtt_v2 \
     terservice \
     thermald \
-    trace \
-    vtservice
+    trace
