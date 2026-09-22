@@ -2145,7 +2145,6 @@ PRODUCT_PACKAGES += \
     eara_io_service \
     epdg_wod \
     factory \
-    fpsgo \
     fuelgauged \
     fuelgauged_nvram \
     gbe \
