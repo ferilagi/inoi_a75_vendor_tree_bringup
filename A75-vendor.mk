@@ -1318,7 +1318,6 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.1 \
     android.hardware.graphics.composer@2.2 \
     android.hardware.graphics.composer@2.3 \
-    android.hardware.graphics.composer@2.4 \
     android.hardware.light@2.0 \
     android.hardware.power-service-mediatek \
     android.hardware.power@1.1 \
