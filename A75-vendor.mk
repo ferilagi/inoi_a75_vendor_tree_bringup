@@ -729,7 +729,6 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.common@6.0 \
     android.hardware.bluetooth.audio@2.1 \
     android.hardware.bluetooth@1.0 \
-    android.hardware.bluetooth@1.1 \
     android.hardware.boot@1.2 \
     android.hardware.drm@1.0 \
     android.hardware.drm@1.1 \
