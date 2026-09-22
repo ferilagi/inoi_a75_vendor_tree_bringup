@@ -686,8 +686,6 @@ PRODUCT_COPY_FILES += \
     vendor/inoi/A75/proprietary/vendor/res/sound/testpattern1.wav:$(TARGET_COPY_OUT_VENDOR)/res/sound/testpattern1.wav \
     vendor/inoi/A75/proprietary/vendor/ro.prop:$(TARGET_COPY_OUT_VENDOR)/ro.prop \
     vendor/inoi/A75/proprietary/vendor/rw.prop:$(TARGET_COPY_OUT_VENDOR)/rw.prop \
-    vendor/inoi/A75/proprietary/vendor_dlkm/etc/fs_config_dirs:$(TARGET_COPY_OUT_VENDOR_DLKM)/etc/fs_config_dirs \
-    vendor/inoi/A75/proprietary/vendor_dlkm/etc/fs_config_files:$(TARGET_COPY_OUT_VENDOR_DLKM)/etc/fs_config_files \
     vendor/inoi/A75/proprietary/vendor_dlkm/lib/modules/modules.alias:$(TARGET_COPY_OUT_VENDOR_DLKM)/lib/modules/modules.alias \
     vendor/inoi/A75/proprietary/vendor_dlkm/lib/modules/modules.dep:$(TARGET_COPY_OUT_VENDOR_DLKM)/lib/modules/modules.dep \
     vendor/inoi/A75/proprietary/vendor_dlkm/lib/modules/modules.load:$(TARGET_COPY_OUT_VENDOR_DLKM)/lib/modules/modules.load \
