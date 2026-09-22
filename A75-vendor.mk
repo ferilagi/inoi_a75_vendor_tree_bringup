@@ -1395,7 +1395,6 @@ PRODUCT_PACKAGES += \
     libcamalgo.platform \
     libcamalgo.warp \
     libcomposer_ext \
-    libcppbor_external \
     libcppcose_rkp \
     libem_sensor_jni \
     libfft_vendor \
@@ -1409,7 +1408,6 @@ PRODUCT_PACKAGES += \
     libimagebuffer_wrapper \
     libkeymaster_messages \
     libkeymaster_portable \
-    libkeymint \
     libkeymint_tool \
     libkeystore-engine-wifi-hidl \
     libkmsetkey \

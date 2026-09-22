@@ -27293,32 +27293,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libcppbor_external",
-    owner: "inoi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libcppbor_external.so",
-            ],
-            shared_libs: [
-                "libbase",
-                "libcrypto",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libcppcose_rkp",
     owner: "inoi",
     strip: {
@@ -27656,45 +27630,6 @@ cc_prebuilt_library_shared {
                 "libcrypto",
                 "libcppbor_external",
                 "libcppcose_rkp",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libkeymint",
-    owner: "inoi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libkeymint.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "android.hardware.security.keymint-V1-ndk_platform",
-                "android.hardware.security.secureclock-V1-ndk_platform",
-                "android.hardware.security.sharedsecret-V1-ndk_platform",
-                "lib_android_keymaster_keymint_utils",
-                "libbase",
-                "libbinder_ndk",
-                "libcppbor_external",
-                "libcrypto",
-                "libcutils",
-                "libkeymaster_messages",
-                "libkeymaster_portable",
-                "liblog",
-                "libpuresoftkeymasterdevice",
-                "libutils",
                 "libc++",
                 "libc",
                 "libm",
