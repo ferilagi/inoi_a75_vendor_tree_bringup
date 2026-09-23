@@ -21431,6 +21431,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "hwcomposer.mtk_common",
+    allow_undefined_symbols: true,
     owner: "inoi",
     strip: {
         none: true,
@@ -21500,6 +21501,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "hwcomposer.mtk_fold",
+    allow_undefined_symbols: true,
     owner: "inoi",
     strip: {
         none: true,
