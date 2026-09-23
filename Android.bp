@@ -38524,28 +38524,10 @@ dex_import {
 }
 
 dex_import {
-    name: "CapCtrlInterface.jar",
-    owner: "inoi",
-    jars: [
-        "proprietary/system_ext/framework/CapCtrlInterface.jar.fsv_meta",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
     name: "CustomPropInterface",
     owner: "inoi",
     jars: [
         "proprietary/system_ext/framework/CustomPropInterface.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "CustomPropInterface.jar",
-    owner: "inoi",
-    jars: [
-        "proprietary/system_ext/framework/CustomPropInterface.jar.fsv_meta",
     ],
     system_ext_specific: true,
 }
@@ -38560,28 +38542,10 @@ dex_import {
 }
 
 dex_import {
-    name: "log-handler.jar",
-    owner: "inoi",
-    jars: [
-        "proprietary/system_ext/framework/log-handler.jar.fsv_meta",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
     name: "mediatek-carrier-config-manager",
     owner: "inoi",
     jars: [
         "proprietary/system_ext/framework/mediatek-carrier-config-manager.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "mediatek-carrier-config-manager.jar",
-    owner: "inoi",
-    jars: [
-        "proprietary/system_ext/framework/mediatek-carrier-config-manager.jar.fsv_meta",
     ],
     system_ext_specific: true,
 }
@@ -38596,28 +38560,10 @@ dex_import {
 }
 
 dex_import {
-    name: "mediatek-common.jar",
-    owner: "inoi",
-    jars: [
-        "proprietary/system_ext/framework/mediatek-common.jar.fsv_meta",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
     name: "mediatek-framework",
     owner: "inoi",
     jars: [
         "proprietary/system_ext/framework/mediatek-framework.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "mediatek-framework.jar",
-    owner: "inoi",
-    jars: [
-        "proprietary/system_ext/framework/mediatek-framework.jar.fsv_meta",
     ],
     system_ext_specific: true,
 }
@@ -38632,28 +38578,10 @@ dex_import {
 }
 
 dex_import {
-    name: "mediatek-ims-base.jar",
-    owner: "inoi",
-    jars: [
-        "proprietary/system_ext/framework/mediatek-ims-base.jar.fsv_meta",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
     name: "mediatek-ims-common",
     owner: "inoi",
     jars: [
         "proprietary/system_ext/framework/mediatek-ims-common.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "mediatek-ims-common.jar",
-    owner: "inoi",
-    jars: [
-        "proprietary/system_ext/framework/mediatek-ims-common.jar.fsv_meta",
     ],
     system_ext_specific: true,
 }
@@ -38668,28 +38596,10 @@ dex_import {
 }
 
 dex_import {
-    name: "mediatek-ims-extension-plugin.jar",
-    owner: "inoi",
-    jars: [
-        "proprietary/system_ext/framework/mediatek-ims-extension-plugin.jar.fsv_meta",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
     name: "mediatek-services",
     owner: "inoi",
     jars: [
         "proprietary/system_ext/framework/mediatek-services.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "mediatek-services.jar",
-    owner: "inoi",
-    jars: [
-        "proprietary/system_ext/framework/mediatek-services.jar.fsv_meta",
     ],
     system_ext_specific: true,
 }
@@ -38704,15 +38614,6 @@ dex_import {
 }
 
 dex_import {
-    name: "mediatek-telecom-common.jar",
-    owner: "inoi",
-    jars: [
-        "proprietary/system_ext/framework/mediatek-telecom-common.jar.fsv_meta",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
     name: "mediatek-telephony-base",
     owner: "inoi",
     jars: [
@@ -38722,28 +38623,10 @@ dex_import {
 }
 
 dex_import {
-    name: "mediatek-telephony-base.jar",
-    owner: "inoi",
-    jars: [
-        "proprietary/system_ext/framework/mediatek-telephony-base.jar.fsv_meta",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
     name: "mediatek-telephony-common",
     owner: "inoi",
     jars: [
         "proprietary/system_ext/framework/mediatek-telephony-common.jar",
-    ],
-    system_ext_specific: true,
-}
-
-dex_import {
-    name: "mediatek-telephony-common.jar",
-    owner: "inoi",
-    jars: [
-        "proprietary/system_ext/framework/mediatek-telephony-common.jar.fsv_meta",
     ],
     system_ext_specific: true,
 }

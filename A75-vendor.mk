@@ -1827,31 +1827,18 @@ PRODUCT_PACKAGES += \
     VoiceUnlock \
     WallpaperCropper \
     CapCtrlInterface \
-    CapCtrlInterface.jar \
     CustomPropInterface \
-    CustomPropInterface.jar \
     log-handler \
-    log-handler.jar \
     mediatek-carrier-config-manager \
-    mediatek-carrier-config-manager.jar \
     mediatek-common \
-    mediatek-common.jar \
     mediatek-framework \
-    mediatek-framework.jar \
     mediatek-ims-base \
-    mediatek-ims-base.jar \
     mediatek-ims-common \
-    mediatek-ims-common.jar \
     mediatek-ims-extension-plugin \
-    mediatek-ims-extension-plugin.jar \
     mediatek-services \
-    mediatek-services.jar \
     mediatek-telecom-common \
-    mediatek-telecom-common.jar \
     mediatek-telephony-base \
-    mediatek-telephony-base.jar \
     mediatek-telephony-common \
-    mediatek-telephony-common.jar \
     android.hardware.neuralnetworks-shim-service-mtk.xml \
     android.hardware.security.keymint-service.trustkernel.xml \
     android.hardware.security.secureclock-service.trustkernel.xml \
