@@ -40141,6 +40141,7 @@ cc_prebuilt_binary {
                 "libc",
                 "libm",
                 "libdl",
+                ],
         },
     },
     compile_multilib: "64",
