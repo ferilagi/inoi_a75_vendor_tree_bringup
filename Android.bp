@@ -1338,6 +1338,7 @@ cc_prebuilt_library_shared {
     },
     target: {
         android_arm: {
+            check_elf_files: false,
             srcs: [
                 "proprietary/vendor/lib/hw/fpsensor_fingerprint.default.so",
             ],
@@ -40133,13 +40134,14 @@ cc_prebuilt_binary {
                 "liblog",
                 "libbinder_ndk",
                 "android.hardware.memtrack-V1-ndk",
+                "android.hardware.memtrack-V1-ndk_platform",
                 "libhardware",
                 "libhardware_legacy",
                 "libc++",
                 "libc",
                 "libm",
                 "libdl",
-            ],
+        "android.hardware.memtrack-V1-ndk_platform",],
         },
     },
     compile_multilib: "64",
