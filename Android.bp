@@ -231,6 +231,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libGLES_mali",
+    check_elf_files: false,
     owner: "inoi",
     strip: {
         none: true,
@@ -1665,6 +1666,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.graphics.mapper@4.0-impl-mediatek",
+    check_elf_files: false,
     owner: "inoi",
     strip: {
         none: true,
@@ -10740,6 +10742,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "arm.graphics-V1-ndk_platform",
+    check_elf_files: false,
     owner: "inoi",
     strip: {
         none: true,
@@ -21258,6 +21261,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.power-service-mediatek",
+    check_elf_files: false,
     owner: "inoi",
     strip: {
         none: true,
@@ -21325,6 +21329,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "android.hardware.gnss-impl-mediatek",
+    check_elf_files: false,
     owner: "inoi",
     strip: {
         none: true,
@@ -36329,6 +36334,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "vendor.mediatek.hardware.log@1.0",
+    check_elf_files: false,
     owner: "inoi",
     strip: {
         none: true,
@@ -39299,6 +39305,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "factory",
+    check_elf_files: false,
     owner: "inoi",
     target: {
         android_arm64: {
@@ -39779,6 +39786,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.gnss-service.mediatek",
+    check_elf_files: false,
     owner: "inoi",
     target: {
         android_arm64: {
@@ -39972,6 +39980,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.lights-service.mediatek",
+    check_elf_files: false,
     owner: "inoi",
     target: {
         android_arm64: {
@@ -40157,6 +40166,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.neuralnetworks-shim-service-mtk",
+    check_elf_files: false,
     owner: "inoi",
     target: {
         android_arm64: {
@@ -40265,6 +40275,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.security.keymint-service.trustkernel",
+    check_elf_files: false,
     owner: "inoi",
     target: {
         android_arm64: {
@@ -40409,6 +40420,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.vibrator-service.mediatek",
+    check_elf_files: false,
     owner: "inoi",
     target: {
         android_arm64: {
@@ -40729,6 +40741,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "vendor.mediatek.hardware.mtkpower@1.0-service",
+    check_elf_files: false,
     owner: "inoi",
     target: {
         android_arm64: {
