@@ -40122,6 +40122,7 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "android.hardware.memtrack-service.mediatek",
+    check_elf_files: false,
     owner: "inoi",
     target: {
         android_arm64: {
@@ -40134,14 +40135,12 @@ cc_prebuilt_binary {
                 "liblog",
                 "libbinder_ndk",
                 "android.hardware.memtrack-V1-ndk",
-                "android.hardware.memtrack-V1-ndk_platform",
                 "libhardware",
                 "libhardware_legacy",
                 "libc++",
                 "libc",
                 "libm",
                 "libdl",
-        "android.hardware.memtrack-V1-ndk_platform",],
         },
     },
     compile_multilib: "64",
