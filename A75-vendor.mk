@@ -1793,7 +1793,6 @@ PRODUCT_PACKAGES += \
     GeofenceService \
     LPPeService \
     MtkCapCtrl \
-    MtkGbaService \
     MtkSettingsProvider \
     MtkSystemUI \
     MtkTelephonyAssist \
@@ -1803,7 +1802,6 @@ PRODUCT_PACKAGES += \
     SetupWizard \
     SmartRatSwitch \
     ThemePicker \
-    VoiceUnlock \
     WallpaperCropper \
     CapCtrlInterface \
     CustomPropInterface \
