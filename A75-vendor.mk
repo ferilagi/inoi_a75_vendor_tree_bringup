@@ -1791,7 +1791,6 @@ PRODUCT_PACKAGES += \
     CarrierConfig \
     FMRadio \
     GeofenceService \
-    ImsService \
     LPPeService \
     MtkCapCtrl \
     MtkGbaService \
@@ -1804,7 +1803,6 @@ PRODUCT_PACKAGES += \
     SetupWizard \
     SmartRatSwitch \
     ThemePicker \
-    VoiceCommand \
     VoiceUnlock \
     WallpaperCropper \
     CapCtrlInterface \
