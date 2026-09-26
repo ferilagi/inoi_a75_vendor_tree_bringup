@@ -213,11 +213,6 @@ PRODUCT_COPY_FILES += \
     vendor/inoi/A75/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM1.xml \
     vendor/inoi/A75/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM2.xml \
     vendor/inoi/A75/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml \
-    vendor/inoi/A75/proprietary/vendor/etc/gralloc/cam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/cam.xml \
-    vendor/inoi/A75/proprietary/vendor/etc/gralloc/dpu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/dpu.xml \
-    vendor/inoi/A75/proprietary/vendor/etc/gralloc/dpu_aeu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/dpu_aeu.xml \
-    vendor/inoi/A75/proprietary/vendor/etc/gralloc/gpu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/gpu.xml \
-    vendor/inoi/A75/proprietary/vendor/etc/gralloc/vpu.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gralloc/vpu.xml \
     vendor/inoi/A75/proprietary/vendor/etc/init.insmod.mt6789.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/init.insmod.mt6789.cfg \
     vendor/inoi/A75/proprietary/vendor/etc/init/android.hardware.audio.service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio.service.mediatek.rc \
     vendor/inoi/A75/proprietary/vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc \
@@ -1775,10 +1770,7 @@ PRODUCT_PACKAGES += \
     com.android.compos \
     com.android.vndk.v31 \
     com.android.vndk.v33 \
-    GoogleTetheringResOverlay \
     InProcessTetheringResOverlay \
-    NetworkStackGoogleGoResOverlay \
-    NetworkStackGoogleResOverlay \
     NetworkStackInProcessResOverlay \
     NetworkStackResOverlay \
     SensorHub \
@@ -1788,7 +1780,6 @@ PRODUCT_PACKAGES += \
     DebugLoggerUI \
     DreamSoundRecorder \
     EngineerMode \
-    GmsSampleIntegration \
     MDMConfig \
     MDMLSample \
     MtkWallpaperPicker \
@@ -1797,12 +1788,8 @@ PRODUCT_PACKAGES += \
     mediatek-res \
     AccessibilityMenu \
     CarrierConfig \
-    EmergencyInfoGms \
     FMRadio \
     GeofenceService \
-    GmsSimProcessor \
-    GoogleFeedback \
-    GoogleServicesFramework \
     ImsService \
     LPPeService \
     MtkCapCtrl \
@@ -1832,6 +1819,11 @@ PRODUCT_PACKAGES += \
     mediatek-telecom-common \
     mediatek-telephony-base \
     mediatek-telephony-common \
+    cam.xml \
+    dpu.xml \
+    dpu_aeu.xml \
+    gpu.xml \
+    vpu.xml \
     android.hardware.neuralnetworks-shim-service-mtk.xml \
     android.hardware.security.keymint-service.trustkernel.xml \
     android.hardware.security.secureclock-service.trustkernel.xml \
