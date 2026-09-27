@@ -1786,26 +1786,16 @@ PRODUCT_PACKAGES += \
     PartnerHomepageProvider \
     TeeService \
     mediatek-res \
-    AccessibilityMenu \
     CarrierConfig \
     FMRadio \
     GeofenceService \
-    ImsService \
     LPPeService \
     MtkCapCtrl \
-    MtkGbaService \
     MtkSettingsProvider \
     MtkSystemUI \
     MtkTelephonyAssist \
     Omacp \
     PhoneManager \
-    SearchLauncherQuickStep \
-    SetupWizard \
-    SmartRatSwitch \
-    ThemePicker \
-    VoiceCommand \
-    VoiceUnlock \
-    WallpaperCropper \
     CapCtrlInterface \
     CustomPropInterface \
     log-handler \
