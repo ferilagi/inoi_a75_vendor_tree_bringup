@@ -1787,7 +1787,6 @@ PRODUCT_PACKAGES += \
     PartnerHomepageProvider \
     TeeService \
     mediatek-res \
-    AccessibilityMenu \
     CarrierConfig \
     FMRadio \
     GeofenceService \
@@ -1799,9 +1798,7 @@ PRODUCT_PACKAGES += \
     Omacp \
     PhoneManager \
     SearchLauncherQuickStep \
-    SetupWizard \
     SmartRatSwitch \
-    ThemePicker \
     WallpaperCropper \
     CapCtrlInterface \
     CustomPropInterface \
