@@ -46,7 +46,6 @@ PRODUCT_COPY_FILES += \
     vendor/inoi/A75/proprietary/system_ext/etc/mtklog-config.prop:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/mtklog-config.prop \
     vendor/inoi/A75/proprietary/system_ext/etc/nr-city.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/nr-city.xml \
     vendor/inoi/A75/proprietary/system_ext/etc/permissions/system-ext-permissions-mediatek.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/system-ext-permissions-mediatek.xml \
-    vendor/inoi/A75/proprietary/system_ext/etc/permissions/privapp-permissions-setupwizard-google.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-setupwizard-google.xml \
     vendor/inoi/A75/proprietary/system_ext/etc/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/r_submix_audio_policy_configuration.xml \
     vendor/inoi/A75/proprietary/system_ext/etc/spn-conf.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/spn-conf.xml \
     vendor/inoi/A75/proprietary/system_ext/etc/sysconfig/com.android.phone.config.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/com.android.phone.config.xml \
@@ -839,6 +838,7 @@ PRODUCT_PACKAGES += \
     libmp3dec_mtk \
     libmsbc_mtk \
     libmtk_bsg \
+    libmtk_drvb \
     libmtkares \
     libmtkcutils \
     libmtkhardware_legacy \
@@ -1166,13 +1166,18 @@ PRODUCT_PACKAGES += \
     libstagefright_soft_vorbisdec \
     libstagefright_soft_vpxdec \
     libstagefright_soft_vpxenc \
+    libvcodec_utility \
     libvcodec_utility_plat.mt6789 \
+    libvcodec_utility_v3a \
+    libvcodecdrv \
+    libvcodecdrv_v3a \
     libvolte_core_shr \
     libvolte_xdmc_shr \
     libvp8dec_sa.ca7 \
     libvp8enc_sa.ca7 \
     libvp9dec_sa.ca7 \
     libvpud_vcodec \
+    libvpudv3a_vcodec \
     libvcodec_utility \
     libvcodec_utility_v3a \
     libvcodecdrv \
@@ -1183,10 +1188,22 @@ PRODUCT_PACKAGES += \
     APUWareHmpServer \
     APUWareUtilsServer \
     android.hardware.power-service-mediatek \
+    arm.graphics-V1-ndk_platform \
+    bf20a1_mipi_raw_IdxMgr \
+    bf20a1_mipi_raw_tuning \
+    bf2257_mipi_raw_IdxMgr \
+    bf2257_mipi_raw_tuning \
+    libGLES_mali \
     android.hardware.boot@1.0-impl-1.2-mtkimpl \
+    android.hardware.camera.provider@2.6-impl-mediatek \
     android.hardware.gnss-impl-mediatek \
     android.hardware.gnss@2.1-impl-mediatek \
+    android.hardware.graphics.allocator@4.0-impl-mediatek \
+    android.hardware.graphics.mapper@4.0-impl-mediatek \
     android.hardware.sensors@2.X-subhal-mediatek \
+    audio.primary.mt6789 \
+    gatekeeper.default \
+    gralloc.common \
     hwcomposer.mtk_common \
     hwcomposer.mtk_fold \
     android.hardware.camera.provider@2.6-impl-mediatek \
@@ -1195,30 +1212,266 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.camera.isphal@1.1-impl \
     vendor.mediatek.hardware.camera.lomoeffect@1.0-impl \
     sensors.mediatek.V2.0 \
+    sensors.mt6789 \
+    vendor.mediatek.hardware.camera.atms@1.0-impl \
+    vendor.mediatek.hardware.camera.bgservice@1.1-impl \
+    vendor.mediatek.hardware.camera.ccap@1.0-impl \
+    vendor.mediatek.hardware.camera.isphal@1.0-impl \
+    vendor.mediatek.hardware.camera.isphal@1.1-impl \
+    vendor.mediatek.hardware.camera.lomoeffect@1.0-impl \
+    vendor.mediatek.hardware.pq@2.15-impl \
+    vulkan.mali \
     lbs_hidl_service-impl \
+    lib3a.ae.core \
+    lib3a.ae \
+    lib3a.ae.stat \
+    lib3a.af.assist \
+    lib3a.af.assist.utils \
+    lib3a.af.core \
+    lib3a.af \
+    lib3a.alsflicker \
+    lib3a.awb.core \
+    lib3a.ccudrv \
+    lib3a.ccuif \
+    lib3a.custom.ae \
+    lib3a.dce \
+    lib3a.flash \
+    lib3a.flicker \
+    lib3a.gma \
+    lib3a.lce \
+    lib3a.log \
+    lib3a.n3d3a \
+    lib3a.sensors.color \
+    lib3a.sensors.flicker \
+    libCamera_bf20a1mipiraw_E2EHDR_Preview \
+    libCamera_bf20a1mipiraw_E2EHDR_Video \
+    libCamera_bf20a1mipiraw_Face_Capture \
+    libCamera_bf20a1mipiraw_Flash_Capture \
+    libCamera_bf20a1mipiraw_HDR_Capture \
+    libCamera_bf20a1mipiraw_HDR_Preview \
+    libCamera_bf20a1mipiraw_HDR_Reconfig_Preview \
+    libCamera_bf20a1mipiraw_HDR_Reconfig_Video \
+    libCamera_bf20a1mipiraw_HDR_Video \
+    libCamera_bf20a1mipiraw_N3D_Capture \
+    libCamera_bf20a1mipiraw_N3D_Preview \
+    libCamera_bf20a1mipiraw_N3D_Video \
+    libCamera_bf20a1mipiraw_P1_YUV \
+    libCamera_bf20a1mipiraw_Scene_Capture \
+    libCamera_bf20a1mipiraw_Scene_Capture_4cell \
+    libCamera_bf20a1mipiraw_Scene_Preview \
+    libCamera_bf20a1mipiraw_Scene_Preview_4k \
+    libCamera_bf20a1mipiraw_Scene_Preview_ZSD_Flash \
+    libCamera_bf20a1mipiraw_Video_1080 \
+    libCamera_bf20a1mipiraw_Video_4k \
+    libCamera_bf2257mipiraw_E2EHDR_Preview \
+    libCamera_bf2257mipiraw_E2EHDR_Video \
+    libCamera_bf2257mipiraw_Face_Capture \
+    libCamera_bf2257mipiraw_Flash_Capture \
+    libCamera_bf2257mipiraw_HDR_Capture \
+    libCamera_bf2257mipiraw_HDR_Preview \
+    libCamera_bf2257mipiraw_HDR_Reconfig_Preview \
+    libCamera_bf2257mipiraw_HDR_Reconfig_Video \
+    libCamera_bf2257mipiraw_HDR_Video \
+    libCamera_bf2257mipiraw_N3D_Capture \
+    libCamera_bf2257mipiraw_N3D_Preview \
+    libCamera_bf2257mipiraw_N3D_Video \
+    libCamera_bf2257mipiraw_P1_YUV \
+    libCamera_bf2257mipiraw_Scene_Capture \
+    libCamera_bf2257mipiraw_Scene_Capture_4cell \
+    libCamera_bf2257mipiraw_Scene_Preview \
+    libCamera_bf2257mipiraw_Scene_Preview_4k \
+    libCamera_bf2257mipiraw_Scene_Preview_ZSD_Flash \
+    libCamera_bf2257mipiraw_Video_1080 \
+    libCamera_bf2257mipiraw_Video_4k \
+    libCamera_ov16a1qmipiraw_E2EHDR_Preview \
+    libCamera_ov16a1qmipiraw_E2EHDR_Video \
+    libCamera_ov16a1qmipiraw_Face_Capture \
+    libCamera_ov16a1qmipiraw_Flash_Capture \
+    libCamera_ov16a1qmipiraw_HDR_Capture \
+    libCamera_ov16a1qmipiraw_HDR_Preview \
+    libCamera_ov16a1qmipiraw_HDR_Reconfig_Preview \
+    libCamera_ov16a1qmipiraw_HDR_Reconfig_Video \
+    libCamera_ov16a1qmipiraw_HDR_Video \
+    libCamera_ov16a1qmipiraw_N3D_Capture \
+    libCamera_ov16a1qmipiraw_N3D_Preview \
+    libCamera_ov16a1qmipiraw_N3D_Video \
+    libCamera_ov16a1qmipiraw_P1_YUV \
+    libCamera_ov16a1qmipiraw_Scene_Capture \
+    libCamera_ov16a1qmipiraw_Scene_Capture_4cell \
+    libCamera_ov16a1qmipiraw_Scene_Preview \
+    libCamera_ov16a1qmipiraw_Scene_Preview_4k \
+    libCamera_ov16a1qmipiraw_Scene_Preview_ZSD_Flash \
+    libCamera_ov16a1qmipiraw_Video_1080 \
+    libCamera_ov16a1qmipiraw_Video_4k \
+    libCamera_s5k3l6mipiraw_E2EHDR_Preview \
+    libCamera_s5k3l6mipiraw_E2EHDR_Video \
+    libCamera_s5k3l6mipiraw_Face_Capture \
+    libCamera_s5k3l6mipiraw_Flash_Capture \
+    libCamera_s5k3l6mipiraw_HDR_Capture \
+    libCamera_s5k3l6mipiraw_HDR_Preview \
+    libCamera_s5k3l6mipiraw_HDR_Reconfig_Preview \
+    libCamera_s5k3l6mipiraw_HDR_Reconfig_Video \
+    libCamera_s5k3l6mipiraw_HDR_Video \
+    libCamera_s5k3l6mipiraw_N3D_Capture \
+    libCamera_s5k3l6mipiraw_N3D_Preview \
+    libCamera_s5k3l6mipiraw_N3D_Video \
+    libCamera_s5k3l6mipiraw_P1_YUV \
+    libCamera_s5k3l6mipiraw_Scene_Capture \
+    libCamera_s5k3l6mipiraw_Scene_Capture_4cell \
+    libCamera_s5k3l6mipiraw_Scene_Preview \
+    libCamera_s5k3l6mipiraw_Scene_Preview_4k \
+    libCamera_s5k3l6mipiraw_Scene_Preview_ZSD_Flash \
+    libCamera_s5k3l6mipiraw_Video_1080 \
+    libCamera_s5k3l6mipiraw_Video_4k \
+    libCamera_s5kgw3spmipiraw_E2EHDR_Preview \
+    libCamera_s5kgw3spmipiraw_E2EHDR_Video \
+    libCamera_s5kgw3spmipiraw_Face_Capture \
+    libCamera_s5kgw3spmipiraw_Flash_Capture \
+    libCamera_s5kgw3spmipiraw_HDR_Capture \
+    libCamera_s5kgw3spmipiraw_HDR_Preview \
+    libCamera_s5kgw3spmipiraw_HDR_Reconfig_Preview \
+    libCamera_s5kgw3spmipiraw_HDR_Reconfig_Video \
+    libCamera_s5kgw3spmipiraw_HDR_Video \
+    libCamera_s5kgw3spmipiraw_N3D_Capture \
+    libCamera_s5kgw3spmipiraw_N3D_Preview \
+    libCamera_s5kgw3spmipiraw_N3D_Video \
+    libCamera_s5kgw3spmipiraw_P1_YUV \
+    libCamera_s5kgw3spmipiraw_Scene_Capture \
+    libCamera_s5kgw3spmipiraw_Scene_Capture_4cell \
+    libCamera_s5kgw3spmipiraw_Scene_Preview \
+    libCamera_s5kgw3spmipiraw_Scene_Preview_4k \
+    libCamera_s5kgw3spmipiraw_Scene_Preview_ZSD_Flash \
+    libCamera_s5kgw3spmipiraw_Video_1080 \
+    libCamera_s5kgw3spmipiraw_Video_4k \
+    libCamera_s5kjn1mipiraw_E2EHDR_Preview \
+    libCamera_s5kjn1mipiraw_E2EHDR_Video \
+    libCamera_s5kjn1mipiraw_Face_Capture \
+    libCamera_s5kjn1mipiraw_Flash_Capture \
+    libCamera_s5kjn1mipiraw_HDR_Capture \
+    libCamera_s5kjn1mipiraw_HDR_Preview \
+    libCamera_s5kjn1mipiraw_HDR_Reconfig_Preview \
+    libCamera_s5kjn1mipiraw_HDR_Reconfig_Video \
+    libCamera_s5kjn1mipiraw_HDR_Video \
+    libCamera_s5kjn1mipiraw_N3D_Capture \
+    libCamera_s5kjn1mipiraw_N3D_Preview \
+    libCamera_s5kjn1mipiraw_N3D_Video \
+    libCamera_s5kjn1mipiraw_P1_YUV \
+    libCamera_s5kjn1mipiraw_Scene_Capture \
+    libCamera_s5kjn1mipiraw_Scene_Capture_4cell \
+    libCamera_s5kjn1mipiraw_Scene_Preview \
+    libCamera_s5kjn1mipiraw_Scene_Preview_4k \
+    libCamera_s5kjn1mipiraw_Scene_Preview_ZSD_Flash \
+    libCamera_s5kjn1mipiraw_Video_1080 \
+    libCamera_s5kjn1mipiraw_Video_4k \
+    libDR \
+    libSonyIMX230PdafLibrary \
+    libSonyIMX230PdafLibraryWrapper \
+    libSonyIMX338PdafLibrary \
+    libSonyIMX338PdafLibraryWrapper \
+    libSonyIMX386PdafLibrary \
+    libSonyIMX386PdafLibraryWrapper \
+    libSonyIMX519PdafLibrary \
+    libSonyIMX519PdafLibraryWrapper \
     libVkLayer_mtk_rt_sdk \
     lib_eara_io_scndet \
     lib_eara_io_service \
     lib_eara_io_systracer \
     lib_eara_io_timer \
     lib_eara_io_util \
+    libaaa_ltm \
+    libaaa_ltmx \
+    libaal_cust_func \
+    libaalservice \
+    libacdk \
+    libaiawb_moon \
+    libaiawb_p1ggm \
+    libaiawb_sun \
+    libaibc_tuning \
+    libaibc_tuning_p2 \
+    libaibc_tuning_p3 \
+    libaibc_tuning_p4 \
+    libaidepth_tuning \
+    libaiselector \
     libarm_egl_properties_sysprop \
+    libcam.afhal \
+    libcam.chdr \
+    libcam.feature_utils \
+    libcam.hal3a.cctsvr \
+    libcam.hal3a.log \
+    libcam.hal3a.v3.ae \
+    libcam.hal3a.v3.ai3a \
+    libcam.hal3a.v3.awb \
+    libcam.hal3a.v3.dng \
+    libcam.hal3a.v3.fsmgr \
+    libcam.hal3a.v3.lscMgr \
+    libcam.hal3a.v3.lsctbl.50 \
+    libcam.hal3a.v3.nvram.50 \
+    libcam.hal3a.v3.platform \
+    libcam.hal3a.v3.resultpool \
+    libcam.hal3a.v3 \
+    libcam.halisp.buf \
+    libcam.halisp.common \
+    libcam.halisp \
+    libcam.halsensor.hwintegration \
+    libcam.halsensor \
+    libcam.iopipe \
+    libcam.isptuning \
+    libcam.pdtblgen \
     libcam.seninfn3d \
+    libcam.tuning.cache \
+    libcam.utils.sensorprovider \
+    libcam.vhdr \
     libcamalgo.3dnr \
     libcamalgo.dngop \
     libcamalgo.eis \
     libcamalgo.fdft \
     libcamalgo.fsc \
     libcamalgo.gyro \
+    libcamalgo.ispfeature \
     libcamalgo.lmv \
+    libcamalgo.lsc \
     libcamalgo.n3d \
     libcamalgo.nr \
     libcamalgo.platform \
+    libcamalgo.platform2 \
+    libcamalgo.rotate \
+    libcamalgo.vsf \
     libcamalgo.warp \
+    libcamdrv_isp \
+    libcamdrv_tuning_mgr \
+    libcamdrv_twin \
+    libcamera.custom.pd_buf_mgr \
+    libcamera.customae \
+    libcamera.customaf \
+    libcamera.customawb \
+    libcamera.customflk \
+    libcameracustom.camera.3a \
+    libcameracustom.camera.isp \
+    libcameracustom.camera.sensors \
+    libcameracustom.camera_exif \
+    libcameracustom.eis \
+    libcameracustom.flashlight \
+    libcameracustom.lens \
+    libcameracustom.plugin \
+    libcameracustom \
     libcomposer_ext \
+    libdip_drv \
+    libdip_postproc \
+    libdpframework \
+    libeffecthal.base \
     libem_sensor_jni \
+    libfeature.face \
+    libfeature.stereo.provider \
+    libfeature.vsdof.hal \
+    libfeature_3dnr \
+    libfeature_eis \
+    libfeature_fsc \
+    libfeature_lmv \
+    libfeature_rss \
+    libfeatureiodrv_mem \
     libfft_vendor \
     libforkexecwrap \
+    libgpudataproducer \
     libgwsd-ril \
     libheichal \
     libhfmanager \
@@ -1226,16 +1479,86 @@ PRODUCT_PACKAGES += \
     libhwm \
     libifcutils_mtk \
     libimagebuffer_wrapper \
+    libimageio \
+    libimageio_plat_drv \
+    libimageio_plat_pipe \
+    libkeymint_tool \
     libkmsetkey \
     libkphhelper \
     libkphproxy \
     libksensor \
     liblibarm_mali_config_sysprops \
+    liblpcnr \
     libmipc \
     libmmagent \
+    libmnl \
+    libmsnr \
     libmtk-fusion-ril-prop-vsim \
     libmtk-ril \
+    libmtkcam.atmseventmgr \
+    libmtkcam.eventcallback \
+    libmtkcam.featurepipe.capture \
+    libmtkcam.featurepipe.depthmap \
+    libmtkcam.featurepipe.streaming \
+    libmtkcam.featurepipe.vsdof_util \
+    libmtkcam.logicalmodule \
+    libmtkcam_3rdparty.core \
+    libmtkcam_3rdparty.customer \
+    libmtkcam_3rdparty.mtk \
+    libmtkcam_3rdparty \
+    libmtkcam_calibration_convertor \
+    libmtkcam_calibration_provider \
+    libmtkcam_debugutils \
+    libmtkcam_device3_app \
+    libmtkcam_device3_hal \
+    libmtkcam_device3_hidl \
+    libmtkcam_device3_hidlutils \
+    libmtkcam_device3_utils \
+    libmtkcam_devicesessionpolicy \
+    libmtkcam_diputils \
+    libmtkcam_exif \
+    libmtkcam_fdvt \
+    libmtkcam_featurepolicy \
+    libmtkcam_featureutils \
+    libmtkcam_fwkutils \
+    libmtkcam_grallocutils \
+    libmtkcam_hwnode \
+    libmtkcam_hwutils \
+    libmtkcam_imem \
+    libmtkcam_imgbuf \
+    libmtkcam_mapping_mgr \
+    libmtkcam_metadata \
+    libmtkcam_metastore \
+    libmtkcam_mfb \
+    libmtkcam_modulefactory_aaa \
+    libmtkcam_modulefactory_custom \
+    libmtkcam_modulefactory_drv \
+    libmtkcam_modulefactory_utils \
+    libmtkcam_modulehelper \
+    libmtkcam_owe \
+    libmtkcam_pipeline \
+    libmtkcam_pipeline_fbm \
+    libmtkcam_pipelinemodel \
+    libmtkcam_pipelinemodel_adapter \
+    libmtkcam_pipelinemodel_capture \
+    libmtkcam_pipelinemodel_isp \
+    libmtkcam_pipelinemodel_session \
+    libmtkcam_pipelinemodel_utils \
+    libmtkcam_pipelinemodel_zsl \
     libmtkcam_pipelinepolicy-aov \
+    libmtkcam_pipelinepolicy-security \
+    libmtkcam_pipelinepolicy-smvr \
+    libmtkcam_pipelinepolicy \
+    libmtkcam_pipelinepolicy_factory \
+    libmtkcam_prerelease \
+    libmtkcam_rsc \
+    libmtkcam_scenariorecorder \
+    libmtkcam_stdutils \
+    libmtkcam_streamutils \
+    libmtkcam_synchelper \
+    libmtkcam_sysutils \
+    libmtkcam_tuning_utils \
+    libmtkcam_ulog \
     libmtkconfig \
     libmtkconfigutils \
     libmtkisp_metadata \
@@ -1244,15 +1567,23 @@ PRODUCT_PACKAGES += \
     libmtkrilutils \
     libmtktinyxml \
     libmtkutils \
+    libneuralnetworks_sl_driver_mtk_prebuilt \
+    libneuron_adapter_mgvi \
     libneuron_platform \
+    libneuron_runtime.5 \
     libnpagent_server \
     libpl \
+    libpq_cust_base \
+    libpq_prot \
+    libpqparamparser \
     libratconfig \
     libremosaic_wrapper \
     libremosaiclib \
     librilfusion \
     librmsclib1 \
+    libstereoinfoaccessor_vsdof \
     libtrm \
+    libvainr_model \
     libvia-ril \
     libviamipc-ril \
     libvpu \
@@ -1416,6 +1747,15 @@ PRODUCT_PACKAGES += \
     libstereoinfoaccessor_vsdof \
     libvainr_model \
     libmtkcam_streaminfo_plugin-p1stt \
+    libmtkcam_streaminfo_plugin-p1stt \
+    ov16a1q_mipi_raw_IdxMgr \
+    ov16a1q_mipi_raw_tuning \
+    s5k3l6_mipi_raw_IdxMgr \
+    s5k3l6_mipi_raw_tuning \
+    s5kgw3sp_mipi_raw_IdxMgr \
+    s5kgw3sp_mipi_raw_tuning \
+    s5kjn1_mipi_raw_IdxMgr \
+    s5kjn1_mipi_raw_tuning \
     vendor.mediatek.hardware.apuware.apusys@2.0 \
     vendor.mediatek.hardware.apuware.apusys@2.1 \
     vendor.mediatek.hardware.apuware.hmp@1.0 \
@@ -1791,8 +2131,10 @@ PRODUCT_PACKAGES += \
     CarrierConfig \
     FMRadio \
     GeofenceService \
+    ImsService \
     LPPeService \
     MtkCapCtrl \
+    MtkGbaService \
     MtkSettingsProvider \
     MtkSystemUI \
     MtkTelephonyAssist \
@@ -1802,6 +2144,8 @@ PRODUCT_PACKAGES += \
     SetupWizard \
     SmartRatSwitch \
     ThemePicker \
+    VoiceCommand \
+    VoiceUnlock \
     WallpaperCropper \
     CapCtrlInterface \
     CustomPropInterface \
@@ -1892,6 +2236,7 @@ PRODUCT_PACKAGES += \
     android.hardware.usb@1.2-service-mediatekv2 \
     android.hardware.vibrator-service.mediatek \
     android.hardware.wifi@1.0-service-lazy \
+    camerahalserver \
     android.hardware.graphics.allocator@4.0-service-mediatek.mt6789 \
     camerahalserver \
     mtkfusionrild \
