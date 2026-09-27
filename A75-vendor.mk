@@ -1797,9 +1797,6 @@ PRODUCT_PACKAGES += \
     MtkTelephonyAssist \
     Omacp \
     PhoneManager \
-    SearchLauncherQuickStep \
-    SmartRatSwitch \
-    WallpaperCropper \
     CapCtrlInterface \
     CustomPropInterface \
     log-handler \
