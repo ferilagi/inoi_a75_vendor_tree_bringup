@@ -1182,6 +1182,9 @@ PRODUCT_PACKAGES += \
     APUWareHmpServer \
     APUWareUtilsServer \
     android.hardware.power-service-mediatek \
+    android.hardware.security.keymint-V3-ndk-mtk \
+    android.hardware.security.keymint-V4-ndk \
+    android.hardware.security.rkp-V3-ndk \
     android.hardware.boot@1.0-impl-1.2-mtkimpl \
     android.hardware.gnss-impl-mediatek \
     android.hardware.gnss@2.1-impl-mediatek \
@@ -1196,12 +1199,12 @@ PRODUCT_PACKAGES += \
     sensors.mediatek.V2.0 \
     lbs_hidl_service-impl \
     libVkLayer_mtk_rt_sdk \
+    lib_android_keymaster_keymint_utils \
     lib_eara_io_scndet \
     lib_eara_io_service \
     lib_eara_io_systracer \
     lib_eara_io_timer \
     lib_eara_io_util \
-    libarm_egl_properties_sysprop \
     libcam.seninfn3d \
     libcamalgo.3dnr \
     libcamalgo.dngop \
@@ -1225,11 +1228,13 @@ PRODUCT_PACKAGES += \
     libhwm \
     libifcutils_mtk \
     libimagebuffer_wrapper \
+    libkeymaster_messages \
+    libkeymaster_portable \
+    libkeymint \
     libkmsetkey \
     libkphhelper \
     libkphproxy \
     libksensor \
-    liblibarm_mali_config_sysprops \
     libmipc \
     libmmagent \
     libmtk-fusion-ril-prop-vsim \
@@ -1246,6 +1251,7 @@ PRODUCT_PACKAGES += \
     libneuron_platform \
     libnpagent_server \
     libpl \
+    libpuresoftkeymasterdevice \
     libratconfig \
     libremosaic_wrapper \
     libremosaiclib \
@@ -1257,7 +1263,6 @@ PRODUCT_PACKAGES += \
     libvpu \
     libwifitest \
     libwpfa \
-    arm.graphics-V3-ndk \
     lib3a.ae.stat \
     lib3a.af.assist \
     lib3a.af.assist.utils \
@@ -1770,50 +1775,6 @@ PRODUCT_PACKAGES += \
     com.android.compos \
     com.android.vndk.v31 \
     com.android.vndk.v33 \
-    InProcessTetheringResOverlay \
-    NetworkStackInProcessResOverlay \
-    NetworkStackResOverlay \
-    SensorHub \
-    TetheringResOverlay \
-    GpuGameDriver.mt6789 \
-    BatteryWarning \
-    DebugLoggerUI \
-    DreamSoundRecorder \
-    EngineerMode \
-    MDMConfig \
-    MDMLSample \
-    MtkWallpaperPicker \
-    PartnerHomepageProvider \
-    TeeService \
-    mediatek-res \
-    CarrierConfig \
-    FMRadio \
-    GeofenceService \
-    LPPeService \
-    MtkCapCtrl \
-    MtkSettingsProvider \
-    MtkSystemUI \
-    MtkTelephonyAssist \
-    Omacp \
-    PhoneManager \
-    CapCtrlInterface \
-    CustomPropInterface \
-    log-handler \
-    mediatek-carrier-config-manager \
-    mediatek-common \
-    mediatek-framework \
-    mediatek-ims-base \
-    mediatek-ims-common \
-    mediatek-ims-extension-plugin \
-    mediatek-services \
-    mediatek-telecom-common \
-    mediatek-telephony-base \
-    mediatek-telephony-common \
-    cam.xml \
-    dpu.xml \
-    dpu_aeu.xml \
-    gpu.xml \
-    vpu.xml \
     android.hardware.neuralnetworks-shim-service-mtk.xml \
     android.hardware.security.keymint-service.trustkernel.xml \
     android.hardware.security.secureclock-service.trustkernel.xml \
@@ -1833,8 +1794,6 @@ PRODUCT_PACKAGES += \
     memtrack-mediatek.xml \
     vendor.sprd.hardware.fingerprintmmi@1.0-service.xml \
     vibrator-mtk-default.xml \
-    BuildManifestSystemExt.apk \
-    BuildManifestSystemExt.apk.idsig \
     AgentTest \
     atcid \
     audiocmdservice_atci \
