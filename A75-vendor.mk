@@ -1183,8 +1183,6 @@ PRODUCT_PACKAGES += \
     APUWareUtilsServer \
     android.hardware.power-service-mediatek \
     android.hardware.security.keymint-V3-ndk-mtk \
-    android.hardware.security.keymint-V4-ndk \
-    android.hardware.security.rkp-V3-ndk \
     android.hardware.boot@1.0-impl-1.2-mtkimpl \
     android.hardware.gnss-impl-mediatek \
     android.hardware.gnss@2.1-impl-mediatek \
