@@ -22936,35 +22936,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "lib_android_keymaster_keymint_utils",
-    check_elf_files: false,
-    allow_undefined_symbols: true,
-    owner: "inoi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/lib_android_keymaster_keymint_utils.so",
-            ],
-            shared_libs: [
-                "android.hardware.security.keymint-V4-ndk",
-                "libbase",
-                "libhardware",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "lib_eara_io_scndet",
     check_elf_files: false,
     allow_undefined_symbols: true,
@@ -23796,103 +23767,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "libkeymaster_messages",
-    check_elf_files: false,
-    allow_undefined_symbols: true,
-    owner: "inoi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libkeymaster_messages.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libkeymaster_portable",
-    check_elf_files: false,
-    allow_undefined_symbols: true,
-    owner: "inoi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libkeymaster_portable.so",
-            ],
-            shared_libs: [
-                "libcrypto",
-                "libcppbor",
-                "libcppcose_rkp",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libkeymint",
-    check_elf_files: false,
-    allow_undefined_symbols: true,
-    owner: "inoi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libkeymint.so",
-            ],
-            shared_libs: [
-                "libhidlbase",
-                "android.hardware.security.rkp-V3-ndk",
-                "android.hardware.security.secureclock-V1-ndk",
-                "android.hardware.security.sharedsecret-V1-ndk",
-                "libbase",
-                "libbinder_ndk",
-                "libcppbor",
-                "libcrypto",
-                "libcutils",
-                "libkeymaster_messages",
-                "libkeymaster_portable",
-                "liblog",
-                "libpuresoftkeymasterdevice",
-                "libutils",
-                "android.hardware.security.keymint-V4-ndk",
-                "lib_android_keymaster_keymint_utils",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libkmsetkey",
     check_elf_files: false,
     allow_undefined_symbols: true,
@@ -24514,41 +24388,6 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "libteec",
                 "liblog",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libpuresoftkeymasterdevice",
-    check_elf_files: false,
-    allow_undefined_symbols: true,
-    owner: "inoi",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libpuresoftkeymasterdevice.so",
-            ],
-            shared_libs: [
-                "libkeymaster_messages",
-                "libkeymaster_portable",
-                "libsoft_attestation_cert",
-                "liblog",
-                "libcppbor",
-                "libcppcose_rkp",
-                "libcrypto",
-                "libcutils",
-                "libbase",
-                "libc++",
                 "libc",
                 "libm",
                 "libdl",

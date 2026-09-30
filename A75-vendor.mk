@@ -1197,7 +1197,6 @@ PRODUCT_PACKAGES += \
     sensors.mediatek.V2.0 \
     lbs_hidl_service-impl \
     libVkLayer_mtk_rt_sdk \
-    lib_android_keymaster_keymint_utils \
     lib_eara_io_scndet \
     lib_eara_io_service \
     lib_eara_io_systracer \
@@ -1226,9 +1225,6 @@ PRODUCT_PACKAGES += \
     libhwm \
     libifcutils_mtk \
     libimagebuffer_wrapper \
-    libkeymaster_messages \
-    libkeymaster_portable \
-    libkeymint \
     libkmsetkey \
     libkphhelper \
     libkphproxy \
@@ -1249,7 +1245,6 @@ PRODUCT_PACKAGES += \
     libneuron_platform \
     libnpagent_server \
     libpl \
-    libpuresoftkeymasterdevice \
     libratconfig \
     libremosaic_wrapper \
     libremosaiclib \
@@ -1928,3 +1923,15 @@ PRODUCT_PACKAGES += \
     terservice \
     thermald \
     trace
+
+# KeyMint V3 COPYFIXES (reapply-vendor-manual.sh; ref-parity blobs).
+PRODUCT_COPY_FILES += \
+    vendor/inoi/A75/proprietary/vendor/lib64/libkeymint.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymint.so \
+    vendor/inoi/A75/proprietary/vendor/lib64/libkeymaster_portable.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_portable.so \
+    vendor/inoi/A75/proprietary/vendor/lib64/libkeymaster_messages.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_messages.so \
+    vendor/inoi/A75/proprietary/vendor/lib64/lib_android_keymaster_keymint_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_android_keymaster_keymint_utils.so \
+    vendor/inoi/A75/proprietary/vendor/lib64/libpuresoftkeymasterdevice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpuresoftkeymasterdevice.so \
+    vendor/inoi/A75/proprietary/vendor/lib64/libcppbor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcppbor.so \
+    vendor/inoi/A75/proprietary/vendor/lib64/libcppbor_external.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcppbor_external.so \
+    vendor/inoi/A75/proprietary/vendor/lib64/libcppcose_rkp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcppcose_rkp.so \
+    vendor/inoi/A75/proprietary/vendor/lib64/libsoft_attestation_cert.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsoft_attestation_cert.so
