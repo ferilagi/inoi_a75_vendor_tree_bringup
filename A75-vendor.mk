@@ -1932,6 +1932,7 @@ PRODUCT_COPY_FILES += \
     vendor/inoi/A75/proprietary/vendor/lib64/lib_android_keymaster_keymint_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_android_keymaster_keymint_utils.so \
     vendor/inoi/A75/proprietary/vendor/lib64/libpuresoftkeymasterdevice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpuresoftkeymasterdevice.so \
     vendor/inoi/A75/proprietary/vendor/lib64/libcppbor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcppbor.so \
-    vendor/inoi/A75/proprietary/vendor/lib64/libcppbor_external.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcppbor_external.so \
+    vendor/inoi/A75/proprietary/vendor/lib64/android.hardware.security.keymint-V4-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.security.keymint-V4-ndk.so \
+    vendor/inoi/A75/proprietary/vendor/lib64/android.hardware.security.rkp-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.security.rkp-V3-ndk.so \
     vendor/inoi/A75/proprietary/vendor/lib64/libcppcose_rkp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcppcose_rkp.so \
     vendor/inoi/A75/proprietary/vendor/lib64/libsoft_attestation_cert.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsoft_attestation_cert.so
