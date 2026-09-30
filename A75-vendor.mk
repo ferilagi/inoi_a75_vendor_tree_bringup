@@ -1924,8 +1924,10 @@ PRODUCT_PACKAGES += \
     thermald \
     trace
 
-# KeyMint V3 COPYFIXES (reapply-vendor-manual.sh; ref-parity blobs).
+# KeyMint V3 COPYFIXES v2 (reapply-vendor-manual.sh; ref-parity blobs).
 PRODUCT_COPY_FILES += \
+    vendor/inoi/A75/proprietary/vendor/bin/hw/android.hardware.security.keymint-service.trustkernel:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.security.keymint-service.trustkernel \
+    vendor/inoi/A75/proprietary/vendor/lib64/android.hardware.security.keymint-V3-ndk-mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.security.keymint-V3-ndk-mtk.so \
     vendor/inoi/A75/proprietary/vendor/lib64/libkeymint.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymint.so \
     vendor/inoi/A75/proprietary/vendor/lib64/libkeymaster_portable.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_portable.so \
     vendor/inoi/A75/proprietary/vendor/lib64/libkeymaster_messages.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_messages.so \
