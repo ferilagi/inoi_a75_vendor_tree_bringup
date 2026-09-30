@@ -1923,8 +1923,3 @@ PRODUCT_PACKAGES += \
     terservice \
     thermald \
     trace
-
-# KeyMint V3 COPYFIXES v3 (reapply-vendor-manual.sh; tanpa kembaran source).
-PRODUCT_COPY_FILES += \
-    vendor/inoi/A75/proprietary/vendor/bin/hw/android.hardware.security.keymint-service.trustkernel:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.security.keymint-service.trustkernel \
-    vendor/inoi/A75/proprietary/vendor/lib64/android.hardware.security.keymint-V3-ndk-mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.security.keymint-V3-ndk-mtk.so
